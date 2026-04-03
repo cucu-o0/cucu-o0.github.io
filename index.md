@@ -1,4 +1,20 @@
+## About me 
+
+🧠 Research Engineer [@Starlab](https://www.starlab.es/)  
+🤖 AI/ML Engineer [@Assist Digital](https://assistdigital.com/tech/botshelf)  
+⚕️ Data Scientist [@Trialing](https://en.trialing.org/)  
+📈 Data Enthusiast [@Ironhack](https://www.ironhack.com/)  
+🏗️ MSc Building Engineering [@Università degli Studi di Trento](https://www.unitn.it/en)  
+
+
 ## Portfolio
+
+###  Areas of Interest
+```go
+💙 Passionate about `Data·ML·AI`  
+👀 Exploring `MLOps·LLMOps·AI Agents`  
+🌱 Focus on `AI for Good·Innovation`
+```
 
 ---
 
