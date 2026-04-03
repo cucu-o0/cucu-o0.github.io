@@ -5,12 +5,18 @@ description: >
   </div>
   <div style="text-align: justify;">
   <em>AI enthusiast · building engineer · dogs lover</em>
+  <div style="display: flex; gap: 20px; margin-top: 12px;">
+  Hello there! 
   <br>
-  Hi! I'm Vero 👋 — an Italian AI Engineer with a Building Engineering background.
-  <br><br>
+  I'm Vero 👋 — an Italian AI Engineer with a Building Engineering background.
+  <br>
   <em>I love to design ML and Generative AI solutions to solve real-world data challenges, building automation that makes processes smarter and faster!</em>
   </div>
-  <div style="display: flex; gap: 20px; margin-top: 12px;">
+  <div style="display: flex; gap: 10px; margin-top: 6px;">
+  <div>
+    <img src="/images/logos/email.png" height="16" width="16">
+    <a href="mailto:vero.agnolutto@gmail.com">Email</a>
+  </div>  
   <div>
     <img src="/images/logos/linkedin.png" height="16" width="16">
     <a href="https://www.linkedin.com/in/veroagnolutto/">LinkedIn</a>
