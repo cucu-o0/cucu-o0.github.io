@@ -16,17 +16,22 @@ description: >
   </div>
   <div style="display: flex; gap: 10px; margin-top: 6px;">
   <div>
+  <a href="mailto:vero.agnolutto@gmail.com">
     <img src="/images/logos/email.png" height="16" width="16">
-    <a href="mailto:vero.agnolutto@gmail.com">Email</a>
+    Email
+  </a>
   </div>  
   <div>
-    <img src="/images/logos/linkedin.png" height="16" width="16">
-    <a href="https://www.linkedin.com/in/veroagnolutto/">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/veroagnolutto/" target="_blank">
+      <img src="/images/logos/linkedin.png" height="16" width="16">
+      LinkedIn
+    </a>
   </div>
   <div>
-    <img src="/images/logos/github.png" height="16" width="16">
-    <a href="https://github.com/cucu-o0">GitHub</a>
-  </div>
+    <a href="https://github.com/cucu-o0" target="_blank">
+      <img src="/images/logos/github.png" height="16" width="16">
+      GitHub
+    </a>
   </div>
 
 remote_theme: pages-themes/minimal@v0.2.0
