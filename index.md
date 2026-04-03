@@ -15,49 +15,26 @@
 ## Portfolio
 
 ---
-### ANNa — Anti-Leukemia Neural Network
+### [PawsPal](https://github.com/cucu-o0/agentic-pawspal)
+🐾 Find your perfect pawtner!
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+### [ANNa](https://github.com/cucu-o0/final_project_IH_leukemia) — Anti-Leukemia Neural Network
 Artificial Neural Network to detect leukemia using deep learning.
-[View project](https://github.com/cucu-o0/final_project_IH_leukemia)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### SAG Mill — LSTM Predictor
+### [SAG Mill](https://github.com/cucu-o0/SAG-Mill) — LSTM Predictor
 Multi-variate, multi-step Long Short-Term Memory model.
-[View project](https://github.com/cucu-o0/SAG-Mill)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Titanic — ML from Disaster
+### [Titanic](https://github.com/cucu-o0/titanic) — ML from Disaster
 Classic Kaggle challenge: survival prediction with Machine Learning.
-[View project](https://github.com/cucu-o0/titanic)
-
-### Category Name 1 
-
-[Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
-
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
