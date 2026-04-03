@@ -1,5 +1,10 @@
 ## About me 
 
+``` 
+👀 Exploring `MLOps·LLMOps·AI Agents`  
+🌱 Focus on `Automatization·Optimization·AI for Good·Innovation`
+```
+
 🧠 Research Engineer [@Starlab](https://www.starlab.es/)  
 🤖 AI/ML Engineer [@Assist Digital](https://assistdigital.com/tech/botshelf)  
 ⚕️ Data Scientist [@Trialing](https://en.trialing.org/)  
@@ -9,14 +14,22 @@
 
 ## Portfolio
 
-###  Areas of Interest
-```go
-💙 Passionate about `Data·ML·AI`  
-👀 Exploring `MLOps·LLMOps·AI Agents`  
-🌱 Focus on `AI for Good·Innovation`
-```
+---
+### ANNa — Anti-Leukemia Neural Network
+Artificial Neural Network to detect leukemia using deep learning.
+[View project](https://github.com/cucu-o0/final_project_IH_leukemia)
 
 ---
+
+### SAG Mill — LSTM Predictor
+Multi-variate, multi-step Long Short-Term Memory model.
+[View project](https://github.com/cucu-o0/SAG-Mill)
+
+---
+
+### Titanic — ML from Disaster
+Classic Kaggle challenge: survival prediction with Machine Learning.
+[View project](https://github.com/cucu-o0/titanic)
 
 ### Category Name 1 
 
