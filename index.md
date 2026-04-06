@@ -26,11 +26,11 @@ https://github.com/cucu-o0/agentic-pawspal
 <br>  
 [![Alt text](/images/anna/anna.png?raw=true)](/markdown/anna)
 
-<div style="display:flex; justify-content:center; overflow:hidden; margin-bottom:-40px;">
+<div style="display:flex; justify-content:center; overflow:hidden;">
     <iframe 
     src="https://drive.google.com/file/d/11ceUTzvoTt_2v7MN_kK-LkpQ_FECKPIB/preview" 
     width="100%" 
-    height="300px"
+    height="200px"
     style="border:none;">
     </iframe>
 </div>
@@ -50,11 +50,11 @@ https://github.com/cucu-o0/SAG-Mill
 <br>  
 [![Alt text](/images/titanic/titanic.jpeg?raw=true)](/markdown/titanic)
 
-<div style="display:flex; justify-content:center; overflow:hidden; margin-bottom:-40px;">
+<div style="display:flex; justify-content:center; overflow:hidden;">
     <iframe 
     src="https://drive.google.com/file/d/11k7NaV7ya6eCcHLjg2mS8nJ-FvkNoCJU/preview" 
     width="100%" 
-    height="300px"
+    height="200px"
     style="border:none;">
     </iframe>
 </div>
