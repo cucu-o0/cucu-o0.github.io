@@ -184,6 +184,5 @@ cython_debug/
 .github
 .env
 
-images/titanic/Survival Analysis.pdf
-images/anna/210103 ANNa.pdf
+pdf/ 
 
