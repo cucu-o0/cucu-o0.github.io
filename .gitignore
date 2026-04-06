@@ -185,3 +185,10 @@ cython_debug/
 .env
 
 pdf/ 
+
+# jekyll
+_site/
+.jekyll-cache/
+
+Gemfile
+Gemfile.lock
