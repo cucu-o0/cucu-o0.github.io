@@ -1,5 +1,7 @@
 ## About me 
 
+---
+
 🧠 Research Engineer [@Starlab](https://www.starlab.es/)  
 🤖 AI/ML Engineer [@Assist Digital](https://assistdigital.com/tech/botshelf)  
 ⚕️ Data Scientist [@Trialing](https://en.trialing.org/)  
@@ -10,6 +12,7 @@
 ## Portfolio
 
 ---
+
 ### [PawsPal](/markdown/pawspal)  
 🐾 *Find your perfect pawtner!*
 <br>  
@@ -23,12 +26,14 @@ https://github.com/cucu-o0/agentic-pawspal
 <br>  
 [![Alt text](/images/anna/anna.png?raw=true)](/markdown/anna)
 
-<iframe 
-  src="https://drive.google.com/file/d/11ceUTzvoTt_2v7MN_kK-LkpQ_FECKPIB/preview" 
-  width="100%" 
-  height="300px"
-  style="border:none;">
-</iframe>
+<div style="display:flex; justify-content:center; overflow:hidden; margin-bottom:-40px;">
+    <iframe 
+    src="https://drive.google.com/file/d/11ceUTzvoTt_2v7MN_kK-LkpQ_FECKPIB/preview" 
+    width="100%" 
+    height="300px"
+    style="border:none;">
+    </iframe>
+</div>
 
 ---
 
@@ -45,12 +50,15 @@ https://github.com/cucu-o0/SAG-Mill
 <br>  
 [![Alt text](/images/titanic/titanic.jpeg?raw=true)](/markdown/titanic)
 
-<iframe 
-  src="https://drive.google.com/file/d/11k7NaV7ya6eCcHLjg2mS8nJ-FvkNoCJU/preview" 
-  width="100%" 
-  height="300px"
-  style="border:none;">
-</iframe>
+<div style="display:flex; justify-content:center; overflow:hidden; margin-bottom:-40px;">
+    <iframe 
+    src="https://drive.google.com/file/d/11k7NaV7ya6eCcHLjg2mS8nJ-FvkNoCJU/preview" 
+    width="100%" 
+    height="300px"
+    style="border:none;">
+    </iframe>
+</div>
+
 
 https://github.com/cucu-o0/titanic
 
