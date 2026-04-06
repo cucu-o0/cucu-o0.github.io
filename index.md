@@ -10,21 +10,21 @@
 ## Portfolio
 
 ---
-### [PawsPal](/pawspal)  
+### [PawsPal](/markdown/pawspal)  
 🐾 *Find your perfect pawtner!*
 <br>  
-[![Alt text](/images/projects/pawspal/pawspal.png?raw=true)](/pawspal)
+[![Alt text](/images/projects/pawspal/pawspal.png?raw=true)](/markdown/pawspal)
 
 https://github.com/cucu-o0/agentic-pawspal
 
 ---
-### [ANNa — Anti-Leukemia Neural Network](/anna)  
+### [ANNa — Anti-Leukemia Neural Network](/markdown/anna)  
 *Artificial Neural Network to detect leukemia using deep learning.*
 <br>  
-[![Alt text](/images/projects/anna/anna.png?raw=true)](/anna)
+[![Alt text](/images/projects/anna/anna.png?raw=true)](/markdown/anna)
 
 <iframe 
-  src="https://drive.google.com/file/d/11ceUTzvoTt_2v7MN_kK-LkpQ_FECKPIB/view?usp=sharing" 
+  src="https://drive.google.com/file/d/11ceUTzvoTt_2v7MN_kK-LkpQ_FECKPIB/preview" 
   width="100%" 
   height="800px"
   style="border:none;">
@@ -32,10 +32,10 @@ https://github.com/cucu-o0/agentic-pawspal
 
 ---
 
-### [SAG Mill — LSTM Predictor](/sag-mill)  
+### [SAG Mill — LSTM Predictor](/markdown/sag-mill)  
 *Multi-variate, multi-step Long Short-Term Memory model.*
 <br>  
-[![Alt text](/images/projects/sagmill/sag_mill.png?raw=true)](/sag-mill)
+[![Alt text](/images/projects/sagmill/sag_mill.png?raw=true)](/markdown/sag-mill)
 https://github.com/cucu-o0/SAG-Mill
 
 ---
@@ -43,7 +43,7 @@ https://github.com/cucu-o0/SAG-Mill
 ### [Titanic — ML from Disaster](/titanic)
 *Classic Kaggle challenge: survival prediction with Machine Learning.*
 <br>  
-[![Alt text](/images/projects/titanic/titanic.jpeg?raw=true)](/titanic)
+[![Alt text](/images/projects/titanic/titanic.jpeg?raw=true)](/markdown/titanic)
 
 https://github.com/cucu-o0/titanic
 
