@@ -18,8 +18,6 @@
 <br>  
 [![Alt text](/images/pawspal/pawspal.png?raw=true)](/markdown/pawspal)
 
-https://github.com/cucu-o0/agentic-pawspal
-
 ---
 ### [ANNa — Anti-Leukemia Neural Network](/markdown/anna)  
 *Artificial Neural Network to detect leukemia using deep learning.*
@@ -58,9 +56,6 @@ https://github.com/cucu-o0/SAG-Mill
     style="border:none;">
     </iframe>
 </div>
-
-
-https://github.com/cucu-o0/titanic
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
