@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a {
+  color:#000000;
+}
+
+a:hover, a:focus {
+  color:#CDCDCD;
+  font-weight: bold;
+}
+
+pre {
+  font-size: 11px;
+}
+
+header > img {
+  width: 170px;
+}
