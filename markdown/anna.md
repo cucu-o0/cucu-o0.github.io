@@ -7,7 +7,7 @@
 
 ## Overview
 
-![LeuKemiaCells](/images/projects/anna/leukemia_cells.jpg)
+![LeuKemiaCells](/images/anna/leukemia_cells.jpg)
 
 **Leukemia** is a malignant tumor of white blood cells (leukocytes). In [Acute lymphoblastic](https://en.wikipedia.org/wiki/Acute_lymphoblastic_leukemia) form, it represents 25% of all pediatric cancers.
 
@@ -44,17 +44,19 @@ In **Medical testing**, **Binary classification** is used to determine if a pati
 
 For this reason, we create a **Brain** made up of two parts:
 
-- 1. **U-Net**: **Convolutional Network** for **Biomedical Image Segmentation**
+```
+1. U-Net — Convolutional Network for Biomedical Image Segmentation
 
-      **Medical Image Segmentation** is the process of **automatic or semi-automatic detection of boundaries within a 2D or 3D image**.
+  Medical Image Segmentation is the process of automatic or semi-automatic
+  detection of boundaries within a 2D or 3D image.
 
-      - Input: Image shape
-      - Output: U-Net output
+  [IN] Image > [OUT] U-Net output
 
-- 2. **Binary Classification**: **Neural Networks**
 
-        - Input: U-Net output
-        - Output: Classification output
+2. Binary Classification — Neural Networks
+
+  [IN] U-Net output > [OUT] Classification output
+```
 
 ### Conclusions
 
@@ -62,8 +64,8 @@ In this project, we learned how to use the **Keras** deep learning library to tr
 
 A total of 10661 images belonging to two classes are included in the training dataset:
 
-- Positive (+): 7272 images
-- Negative (-): 3389 images
+- *Positive (+)*: 7272 images
+- *Negative (-)*: 3389 images
 
 We can see there is a class imbalance in the data with almost 2x more positive samples than negative samples.
 

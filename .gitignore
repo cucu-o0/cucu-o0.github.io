@@ -184,6 +184,6 @@ cython_debug/
 .github
 .env
 
-# Folders
-static/pets/
-data/imgs/
+images/titanic/Survival Analysis.pdf
+images/anna/210103 ANNa.pdf
+
