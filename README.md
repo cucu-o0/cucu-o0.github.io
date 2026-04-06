@@ -11,6 +11,9 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 which ruby  # should now show /opt/homebrew/opt/ruby/bin/ruby
 bundle exec jekyll serve --livereload
 ```
+Open [http://localhost:4000](http://localhost:4000) in your browser.
+
+> **Tip:** Add the `export PATH` line to your `~/.zshrc` to avoid running it every time.
 
 ## Introduction
 
