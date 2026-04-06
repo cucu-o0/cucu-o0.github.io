@@ -1,10 +1,5 @@
 ## About me 
 
-``` 
-👀 Exploring `MLOps·LLMOps·AI Agents`  
-🌱 Focus on `Automatization·Optimization·AI for Good·Innovation`
-```
-
 🧠 Research Engineer [@Starlab](https://www.starlab.es/)  
 🤖 AI/ML Engineer [@Assist Digital](https://assistdigital.com/tech/botshelf)  
 ⚕️ Data Scientist [@Trialing](https://en.trialing.org/)  
@@ -15,26 +10,42 @@
 ## Portfolio
 
 ---
-### [PawsPal](https://github.com/cucu-o0/agentic-pawspal)
-🐾 Find your perfect pawtner!
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### [PawsPal](/pawspal)  
+🐾 *Find your perfect pawtner!*
+<br>  
+[![Alt text](/images/projects/pawspal/pawspal.png?raw=true)](/pawspal)
+
+https://github.com/cucu-o0/agentic-pawspal
 
 ---
-### [ANNa](https://github.com/cucu-o0/final_project_IH_leukemia) — Anti-Leukemia Neural Network
-Artificial Neural Network to detect leukemia using deep learning.
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### [ANNa — Anti-Leukemia Neural Network](/anna)  
+*Artificial Neural Network to detect leukemia using deep learning.*
+<br>  
+[![Alt text](/images/projects/anna/anna.png?raw=true)](/anna)
+
+<iframe 
+  src="https://drive.google.com/file/d/11ceUTzvoTt_2v7MN_kK-LkpQ_FECKPIB/view?usp=sharing" 
+  width="100%" 
+  height="800px"
+  style="border:none;">
+</iframe>
 
 ---
 
-### [SAG Mill](https://github.com/cucu-o0/SAG-Mill) — LSTM Predictor
-Multi-variate, multi-step Long Short-Term Memory model.
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### [SAG Mill — LSTM Predictor](/sag-mill)  
+*Multi-variate, multi-step Long Short-Term Memory model.*
+<br>  
+[![Alt text](/images/projects/sagmill/sag_mill.png?raw=true)](/sag-mill)
+https://github.com/cucu-o0/SAG-Mill
 
 ---
 
-### [Titanic](https://github.com/cucu-o0/titanic) — ML from Disaster
-Classic Kaggle challenge: survival prediction with Machine Learning.
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### [Titanic — ML from Disaster](/titanic)
+*Classic Kaggle challenge: survival prediction with Machine Learning.*
+<br>  
+[![Alt text](/images/projects/titanic/titanic.jpeg?raw=true)](/titanic)
+
+https://github.com/cucu-o0/titanic
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>

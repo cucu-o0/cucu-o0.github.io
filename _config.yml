@@ -3,33 +3,28 @@ description: >
   <div style="display: flex; width: 100%;">
     <img src="/images/vero.png?raw=true" style="width: 65%; object-fit: cover;">
     <img src="/images/mati.png" style="width: 35%; object-fit: cover;">
-</div>
   </div>
   <div style="text-align: justify; margin-top: 12px;">
   <em>AI enthusiast · engineer · dogs lover</em>
-  <br>
+  <div style="margin-top: 6px;">
   📍 Barcelona, Spain
   <div style="margin-top: 12px;">
-  Hello there! 
+  Hi, I’m Vero 👋
   <div style="margin-top: 6px;">
-  I'm Vero 👋 — an Italian AI Engineer with a Building Engineering background.
+  AI Engineer with roots in Building Engineering.
   <div style="margin-top: 6px;">
-  <em>I love to design ML and Generative AI solutions to solve real-world data challenges, building automation that makes processes smarter and faster!</em>
+  <em>
+  I build scalable ML and Generative AI systems that turn complex data into practical, automated solutions. My approach combines engineering discipline with creative problem-solving, with a focus on delivering AI that creates positive impact.</em>
   </div>
   <div style="display: flex; gap: 20px; margin-top: 12px;">
-  <div>
-  <a href="mailto:vero.agnolutto@gmail.com">
-    <img src="/images/logos/email.png" height="20" width="20">
-  </a>
-  </div>  
-  <div>
-    <a href="https://www.linkedin.com/in/veroagnolutto/" target="_blank">
-      <img src="/images/logos/linkedin.png" height="20" width="20">
+    <a href="mailto:vero.agnolutto@gmail.com">
+      <img src="/images/logos/email.png" height="20" width="20" alt="">
     </a>
-  </div>
-  <div>
+    <a href="https://www.linkedin.com/in/veroagnolutto/" target="_blank">
+      <img src="/images/logos/linkedin.png" height="20" width="20" alt="">
+    </a>
     <a href="https://github.com/cucu-o0" target="_blank">
-      <img src="/images/logos/github.png" height="20" width="20">
+      <img src="/images/logos/github.png" height="20" width="20" alt="">
     </a>
   </div>
 
