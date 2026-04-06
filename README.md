@@ -1,13 +1,10 @@
-## Data Science Portfolio
+## Vero's Portfolio
 
-Portfolio: `https://cucu-o0.github.io`
+`https://cucu-o0.github.io`
 
 ### Introduction
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
-
-### Installation
-
+Portfolio based on a Minimal Jekyll theme for GitHub Pages.
 See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
 ___
 
