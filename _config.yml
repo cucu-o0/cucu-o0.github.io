@@ -1,8 +1,7 @@
 title: Vero Agnolutto
 description: > 
   <div style="display: flex; width: 100%;">
-    <img src="/images/vero.png?raw=true" style="width: 65%; object-fit: cover;">
-    <img src="/images/mati.png" style="width: 35%; object-fit: cover;">
+    <img src="/images/vero.png?raw=true" style="width: 90%; object-fit: cover;">
   </div>
   <div style="text-align: justify; margin-top: 12px;">
   <em>AI enthusiast · engineer · dogs lover</em>
