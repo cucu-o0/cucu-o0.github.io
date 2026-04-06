@@ -1,31 +1,50 @@
-# Titanic
-## Machine learning from disaster
+[← Back](../index.md)
 
-This is the legendary [**Titanic ML kaggle competition**](https://www.kaggle.com/c/titanic)
+# Titanic — Machine Learning from Disaster
 
-![titanic](imgs/titanic.jpg)
+> *Who survives? A machine learning answer to history's most famous shipwreck.*  
+> [Kaggle Competition](https://www.kaggle.com/c/titanic)
 
-### Goal
-Create a model that predicts the **probability of survival of passengers** in a shipwreck.
+---
 
-### Model selection
-Selection of classification algorithms:
+## Goal
 
-1. Logistic Regression
-2. Gaussian Naive Bayes
-3. K-nearest Neighbors
-4. Linear Support Vector Machine
-5. Random Forest
+Build a model that predicts the **probability of passenger survival** based on features like age, class, sex, and fare.
 
-### The Winner
-**Random Forest** > Multiple Random Decision Trees
+---
 
-### Conclusions
+## Models Evaluated
 
-Chances to survive:
+| Model | Type |
+|-------|------|
+| Logistic Regression | Linear |
+| Gaussian Naive Bayes | Probabilistic |
+| K-Nearest Neighbors | Instance-based |
+| Linear SVM | Margin-based |
+| **Random Forest** ✅ | Ensemble |
 
-**~80% accuracy**<br/>
-**~71% f1-score**<br/>
-**~82% ROC-AUC score**
+---
 
-The model is quite good in predicting the probability of survival of the passengers but there is still room for improvement.
+## Winner: Random Forest
+
+> Multiple randomized decision trees vote together — reducing overfitting and boosting generalization.
+
+---
+
+## Results
+
+| Metric | Score |
+|--------|-------|
+| Accuracy | ~80% |
+| F1-Score | ~71% |
+| ROC-AUC | ~82% |
+
+> The model generalizes well with solid ROC-AUC performance. Further feature engineering could push accuracy higher.
+
+---
+
+## Stack
+
+`Python` · `Scikit-learn` · `Pandas` · `Matplotlib` · `Seaborn`
+
+🔗 [View full code on GitHub](https://github.com/cucu-o0/titanic)

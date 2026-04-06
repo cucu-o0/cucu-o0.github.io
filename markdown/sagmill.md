@@ -1,33 +1,50 @@
-# SAG-mill Project
+[← Back](../index.md)
 
-Semi-autogenous (SAG) mills are central pieces of equipment for large mining
-operations.
+# SAG-Mill — Predictive Model for Mining Operations
 
-![SAG Mill and measurements](notebook/imgs/sag-mill.png)
+> Predicting industrial performance 5 minutes into the future using deep learning on sequential sensor data.
 
-### Goal
+⚠️ *This project was developed as part of an interview process with [intellisense.io](https://www.intellisense.io/)*. 
 
-The goal of the project is to devise and implement a prototype data-driven
-prediction model of a **Semi-autogenous (SAG) Mill**.
+---
 
-### Overview
+## The Problem
 
-**Semi-autogenous (SAG) mills** are central pieces of equipment for large mining operations. They are commonly used in the secondary crushing stage to break down larger rocks from the pit for further processing.
+**Semi-Autogenous (SAG) mills** crush large rocks in mining operations — and their performance is critical. Unexpected failures or inefficiencies cost millions.
 
-### The exercise
 
--   Select a model to predict performance variables 5 minutes in advance
--   Implement a prototype of this model to generate results
--   Use the test data to calculate prediction error statistics and compare them to the baseline provided in `baseline.ipynb`
+**Goal:** Predict key performance variables **5 minutes in advance** using historical sensor readings.
 
-### Solution
-**Long-Short-Term Memory (LSTM)** is the next generation of Recurrent Neural Network (RNN) used in deep learning for its optimized architecture to easily capture the pattern in sequential data.
+---
 
-The benefit of this type of network is that it can learn and remember over long sequences and does not rely on pre-specified window lagged observation as input.
+## Approach
+```
+[ Raw Sensor Time-Series ]
+        ↓
+[ LSTM — Long Short-Term Memory ]
+        ↓
+[ Performance Variable Forecast (t+5min) ]
+```
 
-### Conclusions
-- The error and prediction of the pressure setup using 20 minutes of history inputs confirm the indication given in the *baseline*.
+**Why LSTM?**  
+Unlike traditional models, LSTM captures long-range temporal dependencies without requiring fixed input windows — ideal for complex industrial sequences.
 
-- Model prediction is poor due to an **overfitting issue** that we decide not to solve in this exercise.
+---
 
-- Unfortunately, we haven't been able to extract power data.
+## Results
+
+| Metric | Result |
+|--------|--------|
+| Pressure prediction | ✅ Aligned with baseline |
+| Power prediction | ❌ Not extracted |
+| Overfitting | ⚠️ Present — not addressed in this iteration |
+
+> Pressure forecasting with 20-minute history confirms baseline trends. Further work needed to resolve overfitting and extract power data.
+
+---
+
+## Stack
+
+`Python` · `TensorFlow / Keras` · `LSTM` · `Pandas` · `Jupyter`
+
+🔗 [View full code on GitHub](https://github.com/cucu-o0/SAG-Mill)
