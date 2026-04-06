@@ -2,7 +2,7 @@
 
 # Pawspal — Find your perfect Pawtner
 
-> *AI-powered pet matchmaking. Because the right companion changes everything.*
+> *🐾 Find your perfect pawtner!*
 
 ---
 
