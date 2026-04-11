@@ -27,7 +27,7 @@ title: Home
 ### [ANNa — Anti-Leukemia Neural Network](/markdown/anna)  
 *Artificial Neural Network to detect leukemia using deep learning.*
 <br>  
-[![Alt text](/images/anna/anna.png?raw=true)](/pdf/210103%20ANNa.pdf)
+[![Alt text](/images/anna/anna.png?raw=true)](https://drive.google.com/file/d/11ceUTzvoTt_2v7MN_kK-LkpQ_FECKPIB/preview)
 
 ---
 
@@ -41,7 +41,7 @@ title: Home
 ### [Titanic — ML from Disaster](/titanic)
 *Classic Kaggle challenge: survival prediction with Machine Learning.*
 <br>  
-[![Alt text](/images/titanic/titanic.jpeg?raw=true)](/pdf/Survival%20Analysis.pdf)
+[![Alt text](/images/titanic/titanic.jpeg?raw=true)](https://drive.google.com/file/d/11k7NaV7ya6eCcHLjg2mS8nJ-FvkNoCJU/preview)
 
 
 
