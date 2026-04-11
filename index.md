@@ -27,16 +27,7 @@ title: Home
 ### [ANNa — Anti-Leukemia Neural Network](/markdown/anna)  
 *Artificial Neural Network to detect leukemia using deep learning.*
 <br>  
-[![Alt text](/images/anna/anna.png?raw=true)](/markdown/anna)
-
-<div style="display: flex; justify-content: center; align-items: center; overflow: hidden;">
-    <iframe 
-    src="https://drive.google.com/file/d/11ceUTzvoTt_2v7MN_kK-LkpQ_FECKPIB/preview" 
-    width="100%" 
-    height="250px"
-    style="border:none;">
-    </iframe>
-</div>
+[![Alt text](/images/anna/anna.png?raw=true)](/pdf/210103%20ANNa.pdf)
 
 ---
 
@@ -44,23 +35,15 @@ title: Home
 *Multi-variate, multi-step Long Short-Term Memory model.*
 <br>  
 [![Alt text](/images/sagmill/sag_mill.png?raw=true)](/markdown/sag-mill)
-https://github.com/cucu-o0/SAG-Mill
 
 ---
 
 ### [Titanic — ML from Disaster](/titanic)
 *Classic Kaggle challenge: survival prediction with Machine Learning.*
 <br>  
-[![Alt text](/images/titanic/titanic.jpeg?raw=true)](/markdown/titanic)
+[![Alt text](/images/titanic/titanic.jpeg?raw=true)](/pdf/Survival%20Analysis.pdf)
 
-<div style="display: flex; justify-content: center; align-items: center; overflow: hidden;">
-    <iframe 
-    src="https://drive.google.com/file/d/11k7NaV7ya6eCcHLjg2mS8nJ-FvkNoCJU/preview" 
-    width="100%" 
-    height="250px"
-    style="border:none;">
-    </iframe>
-</div>
+
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
