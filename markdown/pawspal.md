@@ -32,6 +32,8 @@ Built with **CrewAI** — two specialized agents work together:
 | 🕷️ Scraper | Fetches latest pets from [loveanimalsbcn](https://loveanimalsbcn.com/) |
 | 🧠 Matcher | Analyzes your profile and ranks compatibility |
 
+> 🚧 *Under Construction!*
+
 ---
 
 ## Run it locally
