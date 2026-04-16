@@ -7,9 +7,7 @@
 Make sure you're using Homebrew Ruby, then serve with Jekyll:
 
 ```bash
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-which ruby  # should now show /opt/homebrew/opt/ruby/bin/ruby
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve
 ```
 Open [http://localhost:4000](http://localhost:4000) in your browser.
 
