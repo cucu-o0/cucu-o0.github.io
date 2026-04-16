@@ -22,7 +22,7 @@ title: Home
 🐾 Find your perfect pawtner!
 <br>  
 [![Alt text](/images/pawspal/pawspal.png?raw=true)](/markdown/pawspal)
-<small>*Thinking about adopting or volunteering? Check out [@adoptaloveanimals](https://www.instagram.com/adopta.loveanimals.bcn/)*</small>
+<small>*Thinking about adopting or volunteering? Check out [@adopta.loveanimals.bcn](https://www.instagram.com/adopta.loveanimals.bcn/)*</small>
 
 ---
 ### [ANNa — Anti-Leukemia Neural Network](/markdown/anna)  
