@@ -45,7 +45,7 @@ Multi-variate, multi-step Long Short-Term Memory model.
 
 ---
 
-### [Titanic](/titanic)
+### [Titanic](/markdown/titanic)
 <p style="margin-bottom: 8px;"><em>ML from Disaster <span style="color:#bbb">— Kaggle</span></em></p>
 Classic Kaggle challenge: survival prediction with Machine Learning.
 <br>  
