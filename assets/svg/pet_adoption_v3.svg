@@ -1,0 +1,126 @@
+<svg width="100%" viewBox="0 0 680 620" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Pet adoption system — clean architecture</title>
+  <desc>Top-to-bottom flow: data layer feeds the matching brain, user input/output in soft grey, data nodes in soft blue, brain nodes neutral white</desc>
+
+  <defs>
+    <style>
+      /* Fonts */
+      text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .title  { font-size: 13px; font-weight: 600; }
+      .sub    { font-size: 11px; font-weight: 400; }
+      .label  { font-size: 10px; font-weight: 500; fill: #B4B2A9; letter-spacing: 0.08em; text-transform: uppercase; }
+
+      /* USER nodes — soft warm grey */
+      .user-box   { fill: #F1EFE8; stroke: #888780; stroke-width: 0.5; }
+      .user-title { fill: #444441; }
+      .user-sub   { fill: #5F5E5A; }
+
+      /* DATA nodes — soft blue */
+      .data-box   { fill: #E6F1FB; stroke: #378ADD; stroke-width: 0.5; }
+      .data-title { fill: #0C447C; }
+      .data-sub   { fill: #185FA5; }
+
+      /* BRAIN nodes — neutral white */
+      .brain-box   { fill: #FFFFFF; stroke: #B4B2A9; stroke-width: 0.5; }
+      .brain-title { fill: #2C2C2A; }
+      .brain-sub   { fill: #5F5E5A; }
+
+      /* OUTCOME node — very light neutral */
+      .outcome-box   { fill: #F8F8F5; stroke: #D3D1C7; stroke-width: 0.5; }
+      .outcome-title { fill: #444441; }
+
+      /* Connectors */
+      .solid  { stroke: #B4B2A9; stroke-width: 1.5; fill: none; }
+      .dotted { stroke: #B4B2A9; stroke-width: 1;   fill: none; stroke-dasharray: 5,4; }
+      .solid-blue  { stroke: #85B7EB; stroke-width: 1.5; fill: none; }
+      .dotted-blue { stroke: #85B7EB; stroke-width: 1;   fill: none; stroke-dasharray: 5,4; }
+    </style>
+    <marker id="arr-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#B4B2A9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#85B7EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ── GROUP LABELS ── -->
+  <text x="320" y="24" text-anchor="middle" class="label">data</text>
+  <text x="107" y="24"  text-anchor="middle" class="label">user in</text>
+  <text x="107" y="454" text-anchor="middle" class="label">user out</text>
+  <text x="512" y="300" text-anchor="middle" class="label">brain</text>
+
+  <!-- ══ ROW 1 — Data ingestion ══ -->
+
+  <!-- Agent 1: Scraper -->
+  <rect x="245" y="34" width="150" height="76" rx="8" class="data-box"/>
+  <text x="320" y="62" text-anchor="middle" dominant-baseline="central" class="title data-title">Agent 1: Scraper</text>
+  <text x="320" y="82" text-anchor="middle" dominant-baseline="central" class="sub data-sub">1-3 day cycle</text>
+
+  <!-- Pet Tracker -->
+  <rect x="430" y="34" width="155" height="76" rx="8" class="data-box"/>
+  <text x="507" y="62" text-anchor="middle" dominant-baseline="central" class="title data-title">Pet Tracker</text>
+  <text x="507" y="82" text-anchor="middle" dominant-baseline="central" class="sub data-sub">new • adoptable • missing</text>
+
+  <!-- Scraper → Pet Tracker (solid blue) -->
+  <line x1="395" y1="72" x2="430" y2="72" class="solid-blue" marker-end="url(#arr-blue)"/>
+
+  <!-- ══ ROW 2 — Storage ══ -->
+
+  <!-- Local Database -->
+  <rect x="245" y="170" width="150" height="90" rx="8" class="data-box"/>
+  <text x="320" y="198" text-anchor="middle" dominant-baseline="central" class="title data-title">Local Database</text>
+  <text x="320" y="218" text-anchor="middle" dominant-baseline="central" class="sub data-sub">pet tracker</text>
+  <text x="320" y="234" text-anchor="middle" dominant-baseline="central" class="sub data-sub">eval dataset • priority</text>
+
+  <!-- Scraper dotted ortho → Local DB -->
+  <path d="M 320 110 L 320 170" class="dotted-blue" marker-end="url(#arr-blue)"/>
+
+  <!-- Pet Tracker dotted ortho → Local DB -->
+  <path d="M 507 110 L 507 145 L 320 145 L 320 170" class="dotted-blue" marker-end="url(#arr-blue)"/>
+
+  <!-- ══ ROW 3 — Brain + User Input ══ -->
+
+  <!-- User Preferences (grey) -->
+  <rect x="30" y="310" width="150" height="76" rx="8" class="user-box"/>
+  <text x="105" y="338" text-anchor="middle" dominant-baseline="central" class="title user-title">User Preferences</text>
+  <text x="105" y="358" text-anchor="middle" dominant-baseline="central" class="sub user-sub">lifestyle • needs</text>
+
+  <!-- Agent 2: Matcher (brain neutral) -->
+  <rect x="245" y="310" width="150" height="76" rx="8" class="brain-box"/>
+  <text x="320" y="338" text-anchor="middle" dominant-baseline="central" class="title brain-title">Agent 2: Matcher</text>
+  <text x="320" y="358" text-anchor="middle" dominant-baseline="central" class="sub brain-sub">prefs ↔ pet details</text>
+
+  <!-- Evaluation System (brain neutral) -->
+  <rect x="430" y="310" width="165" height="76" rx="8" class="brain-box"/>
+  <text x="512" y="338" text-anchor="middle" dominant-baseline="central" class="title brain-title">Evaluation System</text>
+  <text x="512" y="358" text-anchor="middle" dominant-baseline="central" class="sub brain-sub">LLM performance</text>
+
+  <!-- Local DB solid → Matcher -->
+  <line x1="320" y1="260" x2="320" y2="310" class="solid" marker-end="url(#arr-grey)"/>
+
+  <!-- User Preferences dotted ortho → Matcher -->
+  <path d="M 180 348 L 245 348" class="dotted" marker-end="url(#arr-grey)"/>
+
+  <!-- Matcher dotted → Evaluation -->
+  <path d="M 395 348 L 430 348" class="dotted" marker-end="url(#arr-grey)"/>
+
+  <!-- ══ ROW 4 — User Output ══ -->
+
+  <!-- User's Pick (grey) -->
+  <rect x="245" y="450" width="150" height="76" rx="8" class="user-box"/>
+  <text x="320" y="478" text-anchor="middle" dominant-baseline="central" class="title user-title">User's Pick</text>
+  <text x="320" y="498" text-anchor="middle" dominant-baseline="central" class="sub user-sub">favorites (≤ 4 pets)</text>
+
+  <!-- Matcher solid → User's Pick -->
+  <line x1="320" y1="386" x2="320" y2="450" class="solid" marker-end="url(#arr-grey)"/>
+
+  <!-- ══ ROW 5 — Outcome ══ -->
+
+  <!-- Shelter + Adoption -->
+  <rect x="170" y="578" width="320" height="30" rx="8" class="outcome-box"/>
+  <text x="330" y="593" text-anchor="middle" dominant-baseline="central" class="title outcome-title">Shelter receives email — adoption starts</text>
+
+  <!-- User's Pick solid → Shelter -->
+  <line x1="320" y1="526" x2="320" y2="578" class="solid" marker-end="url(#arr-grey)"/>
+
+</svg>
