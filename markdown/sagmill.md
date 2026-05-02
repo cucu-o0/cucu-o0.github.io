@@ -22,7 +22,7 @@ title: SAGmill
 
 ## Approach
 
-![SAGmill Pipeline](../assets/svg/assets/svg/lstm_forecast_pipeline.svg)
+![SAGmill Pipeline](../assets/svg/lstm_forecast_pipeline.svg)
 
 **Why LSTM?**  
 Unlike traditional models, LSTM captures long-range temporal dependencies without requiring fixed input windows — ideal for complex industrial sequences.
