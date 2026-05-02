@@ -1,0 +1,36 @@
+<svg width="679.9999999999999" height="220" xmlns="http://www.w3.org/2000/svg" role="img">
+ <title>Leukemia detection pipeline</title>
+ <desc>Four-stage medical imaging pipeline: microscope image processed through U-Net segmentation, binary classifier neural network, outputting healthy or leukemic diagnosis with emojis</desc>
+ <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+   <path d="m2,1l6,4l-6,4" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" id="svg_1"/>
+  </marker>
+ </defs>
+ <!-- Stage 1: Microscope Image (soft green) -->
+ <!-- Arrow 1 -->
+ <!-- Stage 2: U-Net (neutral gray) -->
+ <!-- Arrow 2 -->
+ <!-- Stage 3: Binary Classifier (neutral gray) -->
+ <!-- Arrow 3 -->
+ <!-- Stage 4: Diagnosis (soft blue) -->
+ <g>
+  <title>Layer 1</title>
+  <rect x="30" y="50" width="140" height="120" rx="8" class="box-green" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5" id="svg_2"/>
+  <text x="100" y="85" text-anchor="middle" dominant-baseline="central" class="text-title text-green" font-size="14px" font-weight="500" font-family="sans-serif" fill="#27500A" id="svg_3">Microscope</text>
+  <text x="100" y="105" text-anchor="middle" dominant-baseline="central" class="text-subtitle text-green" font-size="12px" font-family="sans-serif" fill="#27500A" id="svg_4">Image</text>
+  <text x="100" y="130" text-anchor="middle" dominant-baseline="central" class="emoji" font-size="24px" id="svg_5">🔬</text>
+  <line x1="170" y1="110" x2="200" y2="110" class="arrow" stroke="#85B7EB" marker-end="url(#arrow)" stroke-width="1.5" id="svg_6"/>
+  <rect x="200" y="50" width="140" height="120" rx="8" class="box-gray" fill="#F1EFE8" stroke="#888780" stroke-width="0.5" id="svg_7"/>
+  <text x="270" y="85" text-anchor="middle" dominant-baseline="central" class="text-title text-gray" font-size="14px" font-weight="500" font-family="sans-serif" fill="#444441" id="svg_8">U-Net</text>
+  <text x="270" y="105" text-anchor="middle" dominant-baseline="central" class="text-subtitle text-gray" font-size="12px" font-family="sans-serif" fill="#444441" id="svg_9">Image Segmentation</text>
+  <line x1="340" y1="110" x2="370" y2="110" class="arrow" stroke="#B4B2A9" marker-end="url(#arrow)" stroke-width="1.5" id="svg_10"/>
+  <rect x="370" y="50" width="140" height="120" rx="8" class="box-gray" fill="#F1EFE8" stroke="#e0dfd9" stroke-width="0.5" id="svg_11"/>
+  <text x="437.99993" y="102.00064" text-anchor="middle" dominant-baseline="central" class="text-title text-gray" font-size="14px" font-weight="500" font-family="sans-serif" fill="#444441" id="svg_12">Binary Classifier</text>
+  <text x="437.99993" y="122.00064" text-anchor="middle" dominant-baseline="central" class="text-subtitle text-gray" font-size="12px" font-family="sans-serif" fill="#444441" id="svg_13">Neural Network</text>
+  <line x1="510" y1="110" x2="540" y2="110" class="arrow" stroke="#B4B2A9" marker-end="url(#arrow)" stroke-width="1.5" id="svg_14"/>
+  <rect x="540" y="50" width="110" height="120" rx="8" class="box-blue" fill="#E6F1FB" stroke-width="0.5" id="svg_15" stroke="#185FA5"/>
+  <text style="cursor: move;" x="597.00007" y="90.00056" text-anchor="middle" dominant-baseline="central" class="text-title text-blue" font-size="14px" font-weight="500" font-family="sans-serif" fill="#0C447C" id="svg_16">✅ Healthy</text>
+  <text style="cursor: move;" x="597.00007" y="130.00056" text-anchor="middle" dominant-baseline="central" class="text-title text-blue" font-size="14px" font-weight="500" font-family="sans-serif" fill="#00007f" id="svg_18">⚠️ Leukemic</text>
+  <text style="cursor: move;" fill="#0c437a" x="597.00007" y="108.9991" text-anchor="middle" dominant-baseline="central" class="emoji" font-size="14" id="svg_19">vs.</text>
+ </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="100%" viewBox="0 0 680 220" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>LSTM time-series forecasting pipeline</title>
+  <desc>Three-stage forecasting pipeline: raw sensor time-series data fed into LSTM model, producing performance variable forecast at t+5 minutes</desc>
+
+  <defs>
+    <style>
+      .box-blue  { fill: #E6F1FB; stroke: #185FA5; stroke-width: 0.5; }
+      .box-gray  { fill: #F1EFE8; stroke: #888780; stroke-width: 0.5; }
+      .box-green { fill: #EAF3DE; stroke: #3B6D11; stroke-width: 0.5; }
+      .text-title { font-size: 14px; font-weight: 500; font-family: sans-serif; }
+      .text-subtitle { font-size: 12px; font-family: sans-serif; }
+      .text-blue { fill: #0C447C; }
+      .text-gray { fill: #444441; }
+      .text-green { fill: #27500A; }
+      .emoji { font-size: 22px; }
+      line.arrow { stroke-width: 1.5; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Stage 1: Raw Sensor Time-Series (soft blue) -->
+  <rect x="40" y="50" width="160" height="120" rx="8" class="box-blue"/>
+  <text x="120" y="90" text-anchor="middle" dominant-baseline="central" class="text-title text-blue">Raw Sensor</text>
+  <text x="120" y="110" text-anchor="middle" dominant-baseline="central" class="text-subtitle text-blue">Time-Series</text>
+  <text x="120" y="135" text-anchor="middle" dominant-baseline="central" class="emoji">📊</text>
+
+  <!-- Arrow 1 -->
+  <line x1="200" y1="110" x2="240" y2="110" class="arrow" stroke="#85B7EB" marker-end="url(#arrow)"/>
+
+  <!-- Stage 2: LSTM Model (neutral gray) -->
+  <rect x="240" y="50" width="160" height="120" rx="8" class="box-gray"/>
+  <text x="320" y="85" text-anchor="middle" dominant-baseline="central" class="text-title text-gray">LSTM Model</text>
+  <text x="320" y="105" text-anchor="middle" dominant-baseline="central" class="text-subtitle text-gray">Long Short-Term</text>
+  <text x="320" y="120" text-anchor="middle" dominant-baseline="central" class="text-subtitle text-gray">Memory</text>
+
+  <!-- Arrow 2 -->
+  <line x1="400" y1="110" x2="440" y2="110" class="arrow" stroke="#B4B2A9" marker-end="url(#arrow)"/>
+
+  <!-- Stage 3: Performance Forecast (soft green) -->
+  <rect x="440" y="50" width="200" height="120" rx="8" class="box-green"/>
+  <text x="540" y="85" text-anchor="middle" dominant-baseline="central" class="text-title text-green">Performance Variable</text>
+  <text x="540" y="105" text-anchor="middle" dominant-baseline="central" class="text-subtitle text-green">Forecast (t+5min)</text>
+  <text x="540" y="135" text-anchor="middle" dominant-baseline="central" class="emoji">⏱️</text>
+
+</svg>
