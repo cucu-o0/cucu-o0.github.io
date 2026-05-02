@@ -1,10 +1,15 @@
-[← Back](../index.md)
+---
+layout: default
+title: SAGmill
+---
 
-# SAG-Mill — Predictive Model for Mining Operations
+[← Back](../)
+
+# ⚙️ SAG-Mill
 
 > Predicting industrial performance 5 minutes into the future using deep learning on sequential sensor data.
 
-⚙️ *This project was developed as part of an interview process with [intellisense.io](https://www.intellisense.io/)*. 
+👩🏻‍💻 *This project was developed as part of an interview process with [intellisense.io](https://www.intellisense.io/)*. 
 
 
 ## The Problem
@@ -17,12 +22,7 @@
 
 ## Approach
 
-```
-┌─────────────────┐     ┌──────────────┐     ┌────────────────────────┐
-│ Raw Sensor      │ --> │ LSTM Model   │ --> │ Performance  Variable  │
-│ Time-Series     │     │              │     │ Forecast (t+5min)      │
-└─────────────────┘     └──────────────┘     └────────────────────────┘
-```
+![SAGmill Pipeline](../assets/svg/assets/svg/lstm_forecast_pipeline.svg)
 
 **Why LSTM?**  
 Unlike traditional models, LSTM captures long-range temporal dependencies without requiring fixed input windows — ideal for complex industrial sequences.
@@ -39,6 +39,6 @@ Unlike traditional models, LSTM captures long-range temporal dependencies withou
 
 ## Stack
 
-`Python` · `TensorFlow / Keras` · `LSTM` · `Pandas` · `Jupyter`
+{% include badges.html project="sag-mill" %}
 
-🔗 [View full code on GitHub](https://github.com/cucu-o0/SAG-Mill)
+🔗 View full code on [GitHub](https://github.com/cucu-o0/SAG-Mill)

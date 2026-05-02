@@ -1,9 +1,15 @@
-[← Back](../index.md)
+---
+layout: default
+title: ANNa
+---
 
-# ANNa — Artificial Neural Network anti-Leukemia
+[← Back](../)
+
+# 🧠 ANNa
 
 > *"Cancer doesn't grow from yesterday to today. There are signs in the tissue, but the human eye has limited ability to detect very small patterns."*  
-> — **Regina Barzilay**, First winner of the Squirrel AI Award
+
+— **Regina Barzilay**, First winner of the Squirrel AI Award
 
 
 ## What is ANNa?
@@ -12,10 +18,8 @@
 
 
 ## How it Works
-┌─────────────────────┐    ┌──────────────────────┐    ┌─────────────────────┐    ┌──────────────────────┐
-│ Microscope Image    │ -> │ U-Net                │ -> │ Binary Classifier   │ -> │ Healthy ✅           │
-│                     │    │ Image Segmentation   │    │ Neural Network      │    │ vs. Leukemic ⚠️      │
-└─────────────────────┘    └──────────────────────┘    └─────────────────────┘    └──────────────────────┘
+
+![Leukemia Detection Pipeline](../assets/svg/leukemia_detection_pipeline.svg)
 
 ANNa combines two networks:
 - **U-Net** — extracts and segments relevant cell features
@@ -44,6 +48,6 @@ ANNa combines two networks:
 
 ## Stack
 
-`Python` · `Keras` · `TensorFlow` · `U-Net` · `CNN`
+{% include badges.html project="anna" %}
 
-🔗 [View full code on GitHub](https://github.com/cucu-o0/final_project_IH_leukemia)
+🔗 View full code on [GitHub](https://github.com/cucu-o0/final_project_IH_leukemia)

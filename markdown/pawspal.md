@@ -1,10 +1,13 @@
-[← Back](../index.md)
+---
+layout: default
+title: PawsPal
+---
 
-# Pawspal — Find your perfect Pawtner
+[← Back](../)
+
+# Pawspal
 
 > *🐾 Find your perfect pawtner!*
-
-
 
 ## What it does
 
@@ -38,4 +41,4 @@ Available at → `http://localhost:8501`
 
 ## Stack
 
-`Python 3.11` · `Claude code`· `beautifulsoup4`· `CrewAI` · `Ollama` · `Streamlit`
+{% include badges.html project="pawspal" %}  

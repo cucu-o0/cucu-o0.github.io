@@ -1,6 +1,11 @@
-[← Back](../index.md)
+---
+layout: default
+title: Titanic
+---
 
-# Titanic
+[← Back](../)
+
+# 🛳️ Titanic
 
 > *Who survives? A machine learning answer to history's most famous shipwreck.*  
 > [Kaggle Competition](https://www.kaggle.com/c/titanic)
@@ -39,6 +44,6 @@ Build a model that predicts the **probability of passenger survival** based on f
 
 ## Stack
 
-`Python` · `Scikit-learn` · `Pandas` · `Matplotlib` · `Seaborn`
+{% include badges.html project="titanic" %}
 
-🔗 [View full code on GitHub](https://github.com/cucu-o0/titanic)
+🔗 View full code on [GitHub](https://github.com/cucu-o0/titanic)
