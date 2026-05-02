@@ -1,17 +1,15 @@
 [← Back](../index.md)
 
-# Titanic — Machine Learning from Disaster
+# Titanic
 
 > *Who survives? A machine learning answer to history's most famous shipwreck.*  
 > [Kaggle Competition](https://www.kaggle.com/c/titanic)
 
----
 
 ## Goal
 
 Build a model that predicts the **probability of passenger survival** based on features like age, class, sex, and fare.
 
----
 
 ## Models Evaluated
 
@@ -23,13 +21,11 @@ Build a model that predicts the **probability of passenger survival** based on f
 | Linear SVM | Margin-based |
 | **Random Forest** ✅ | Ensemble |
 
----
 
 ## Winner: Random Forest
 
 > Multiple randomized decision trees vote together — reducing overfitting and boosting generalization.
 
----
 
 ## Results
 
@@ -40,8 +36,6 @@ Build a model that predicts the **probability of passenger survival** based on f
 | ROC-AUC | ~82% |
 
 > The model generalizes well with solid ROC-AUC performance. Further feature engineering could push accuracy higher.
-
----
 
 ## Stack
 

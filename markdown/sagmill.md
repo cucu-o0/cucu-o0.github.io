@@ -4,9 +4,8 @@
 
 > Predicting industrial performance 5 minutes into the future using deep learning on sequential sensor data.
 
-⚠️ *This project was developed as part of an interview process with [intellisense.io](https://www.intellisense.io/)*. 
+⚙️ *This project was developed as part of an interview process with [intellisense.io](https://www.intellisense.io/)*. 
 
----
 
 ## The Problem
 
@@ -15,21 +14,18 @@
 
 **Goal:** Predict key performance variables **5 minutes in advance** using historical sensor readings.
 
----
 
 ## Approach
+
 ```
-[ Raw Sensor Time-Series ]
-        ↓
-[ LSTM — Long Short-Term Memory ]
-        ↓
-[ Performance Variable Forecast (t+5min) ]
+┌─────────────────┐     ┌──────────────┐     ┌────────────────────────┐
+│ Raw Sensor      │ --> │ LSTM Model   │ --> │ Performance  Variable  │
+│ Time-Series     │     │              │     │ Forecast (t+5min)      │
+└─────────────────┘     └──────────────┘     └────────────────────────┘
 ```
 
 **Why LSTM?**  
 Unlike traditional models, LSTM captures long-range temporal dependencies without requiring fixed input windows — ideal for complex industrial sequences.
-
----
 
 ## Results
 
@@ -37,11 +33,9 @@ Unlike traditional models, LSTM captures long-range temporal dependencies withou
 |--------|--------|
 | Pressure prediction | ✅ Aligned with baseline |
 | Power prediction | ❌ Not extracted |
-| Overfitting | ⚠️ Present — not addressed in this iteration |
+| Overfitting | ⚠️ Present (*not addressed in this iteration*) |
 
 > Pressure forecasting with 20-minute history confirms baseline trends. Further work needed to resolve overfitting and extract power data.
-
----
 
 ## Stack
 
