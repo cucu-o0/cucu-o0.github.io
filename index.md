@@ -27,7 +27,7 @@ Pet adoption recommender system powered by agents.
 <small>*🐾 Thinking about adopting or volunteering? Check out [@adopta.loveanimals.bcn](https://www.instagram.com/adopta.loveanimals.bcn/)*</small>
 
 ---
-### [ANNa — Anti-Leukemia Neural Network](/markdown/anna)
+### [ANNa](/markdown/anna)
 <p style="margin-bottom: 8px;"><em>Anti-Leukemia Neural Network <span style="color:#bbb">— Final Project · IronHack</span></em></p>
 Artificial Neural Network to detect leukemia using deep learning.
 <br>  
@@ -36,7 +36,7 @@ Artificial Neural Network to detect leukemia using deep learning.
 
 ---
 
-### [SAG Mill — LSTM Predictor](/markdown/sag-mill)
+### [SAG Mill](/markdown/sagmill)
 <p style="margin-bottom: 8px;"><em>LSTM Predictor <span style="color:#bbb">— Tech Interview</span></em></p>
 Multi-variate, multi-step Long Short-Term Memory model.
 <br>  
@@ -45,7 +45,7 @@ Multi-variate, multi-step Long Short-Term Memory model.
 
 ---
 
-### [Titanic — ML from Disaster](/titanic)
+### [Titanic](/titanic)
 <p style="margin-bottom: 8px;"><em>ML from Disaster <span style="color:#bbb">— Kaggle</span></em></p>
 Classic Kaggle challenge: survival prediction with Machine Learning.
 <br>  
