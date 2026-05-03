@@ -11,6 +11,8 @@ title: PawsPal
 
 ## What it does
 
+**Pawspal** uses intelligent matching to bridge the gap between families and pets, automating the adoption process so every match leads to a *happy, lasting home*!
+
 **Pawspal** scrapes [loveanimalsbcn](https://loveanimalsbcn.com/), matches you with 4 pets based on your lifestyle, and directly contacts [CAACB](https://ajuntament.barcelona.cat/benestaranimal/es/cercador-danimals-en-adopcio) shelter to start your adoption journey! 
 
 ![Pet Adoption Architecture](../assets/svg/pet_adoption_v3.svg)

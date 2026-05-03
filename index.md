@@ -20,7 +20,7 @@ title: Home
 
 ### [PawsPal](/markdown/pawspal)
 <p style="margin-bottom: 8px;">🐾 <em>Find your perfect pawtner! <span style="color:#bbb">— side project</span></em></p>
-Pet adoption recommender system powered by agents.
+Adoption success depends on compatibility. **Pawspal** uses AI-powered matching to connect families with the right pets based on lifestyle and needs, maximizing adoption outcomes!
 <br>  
 [![Alt text](/images/pawspal/pawspal.png?raw=true)](/markdown/pawspal) <br><small>`Python` · `Claude Code`· `beautifulsoup4` · `SQLite` · `CrewAI` · `Ollama`· `FastAPI` · `Streamlit`</small><br>
 <br>
