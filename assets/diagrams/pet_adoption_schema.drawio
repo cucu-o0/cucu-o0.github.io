@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="N_PJWBzm4L7kKhfcCSB5" name="Page-1">
+    <mxGraphModel dx="1006" dy="659" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GRGJtnKNHstDZq8nOEbR-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#1F2B19;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="245" width="394" x="17" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl-data" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#B4B2A9;letterSpacing=1;" value="DATA" vertex="1">
+          <mxGeometry height="20" width="150" x="245" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl-userin" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#B4B2A9;letterSpacing=1;" value="USER IN" vertex="1">
+          <mxGeometry height="20" width="150" x="30" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="scraper" parent="1" style="rounded=1;arcSize=8;fillColor=#E6F1FB;strokeColor=#378ADD;strokeWidth=1;fontColor=#0C447C;fontSize=13;align=center;verticalAlign=middle;html=1;" value="&lt;b&gt;Scraper&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; color: rgb(24, 95, 165);&quot;&gt;loveanimalsbcn.com&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; color: rgb(24, 95, 165);&quot;&gt;IG adopta.loveanimals.bcn&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76" width="150" x="245" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="pettracker" parent="1" style="rounded=1;arcSize=8;fillColor=#E6F1FB;strokeColor=#378ADD;strokeWidth=1;fontColor=#0C447C;fontSize=13;align=center;verticalAlign=middle;html=1;" value="&lt;b&gt;Pet Tracker&lt;/b&gt;&lt;br/&gt;&lt;span style=&#39;font-size:11px;color:#185FA5;&#39;&gt;new • adoptable • missing&lt;/span&gt;" vertex="1">
+          <mxGeometry height="76" width="165" x="430" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="e-scraper-tracker" edge="1" parent="1" source="scraper" style="edgeStyle=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#85B7EB;strokeWidth=1.5;" target="pettracker">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="localdb" parent="1" style="rounded=1;arcSize=8;fillColor=#E6F1FB;strokeColor=#378ADD;strokeWidth=1;fontColor=#0C447C;fontSize=13;align=center;verticalAlign=middle;html=1;" value="&lt;b&gt;Pet Enricher&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#185fa5&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Inference&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(24, 95, 165), rgb(111, 173, 233)); font-size: 11px; background-color: transparent;&quot;&gt;IG post • pet details&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="150" x="245" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e-scraper-db" edge="1" parent="1" source="scraper" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#85B7EB;strokeWidth=1;dashed=1;dashPattern=5 4;" target="localdb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-tracker-db" edge="1" parent="1" source="pettracker" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#85B7EB;strokeWidth=1;dashed=1;dashPattern=5 4;" target="localdb">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="512" y="145" />
+              <mxPoint x="320" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="userprefs" parent="1" style="rounded=1;arcSize=8;strokeWidth=1;fontSize=13;align=center;verticalAlign=middle;html=1;fillColor=none;strokeColor=#b85450;" value="&lt;b&gt;User Preferences&lt;/b&gt;&lt;br/&gt;&lt;span style=&#39;font-size:11px;color:#5F5E5A;&#39;&gt;lifestyle • needs&lt;/span&gt;" vertex="1">
+          <mxGeometry height="76" width="150" x="30" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="matcher" parent="1" style="rounded=1;arcSize=8;fillColor=none;strokeColor=#b85450;strokeWidth=1;fontSize=13;align=center;verticalAlign=middle;html=1;" value="&lt;b&gt;🐾 PawsPal: Matcher&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; color: rgb(95, 94, 90);&quot;&gt;Inference&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; color: rgb(95, 94, 90);&quot;&gt;prefs ↔ pet details&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76" width="150" x="245" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="evalsys" parent="1" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#B4B2A9;strokeWidth=1;fontColor=#2C2C2A;fontSize=13;align=center;verticalAlign=middle;html=1;" value="&lt;b&gt;Evaluation System&lt;/b&gt;&lt;br/&gt;&lt;span style=&#39;font-size:11px;color:#5F5E5A;&#39;&gt;LLM performance&lt;/span&gt;" vertex="1">
+          <mxGeometry height="76" width="165" x="430" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="e-db-matcher" edge="1" parent="1" source="localdb" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#B4B2A9;strokeWidth=1.5;" target="matcher">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-prefs-matcher" edge="1" parent="1" source="userprefs" style="edgeStyle=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#B4B2A9;strokeWidth=1;dashed=1;dashPattern=5 4;" target="matcher">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-matcher-eval" edge="1" parent="1" source="matcher" style="edgeStyle=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#B4B2A9;strokeWidth=1;dashed=1;dashPattern=5 4;" target="evalsys">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="userpick" parent="1" style="rounded=1;arcSize=8;strokeWidth=1;fontSize=13;align=center;verticalAlign=middle;html=1;fillColor=none;strokeColor=#b85450;" value="&lt;b&gt;User&#39;s Pick&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; color: rgb(95, 94, 90);&quot;&gt;favorites (4 pets)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="76" width="150" x="245" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="e-matcher-pick" edge="1" parent="1" source="matcher" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#B4B2A9;strokeWidth=1.5;" target="userpick">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shelter" parent="1" style="rounded=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;fontSize=13;align=center;verticalAlign=middle;html=1;fontColor=#82B366;" value="&lt;b&gt;Shelter receives email&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;🎉 &lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;process starts&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57" width="156" x="242" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="e-pick-shelter" edge="1" parent="1" source="userpick" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#B4B2A9;strokeWidth=1.5;" target="shelter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGJtnKNHstDZq8nOEbR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#1F2B19;" value="" vertex="1">
+          <mxGeometry height="245" width="370" x="234" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGJtnKNHstDZq8nOEbR-4" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#B4B2A9;letterSpacing=1;" value="Admin" vertex="1">
+          <mxGeometry height="20" width="150" x="452" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGJtnKNHstDZq8nOEbR-5" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#B4B2A9;letterSpacing=1;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BfontSize%3D14%3BfontStyle%3D1%3BfontColor%3D%23B4B2A9%3BletterSpacing%3D1%3B%22%20value%3D%22Admin%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2220%22%20width%3D%22150%22%20x%3D%22452%22%20y%3D%22249%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-size: 13px;&quot;&gt;🐾&amp;nbsp;&lt;/b&gt;PawsPal" vertex="1">
+          <mxGeometry height="20" width="150" x="17" y="532" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
