@@ -11,9 +11,7 @@ title: PawsPal
 
 ## What it does
 
-**Pawspal** uses intelligent matching to bridge the gap between families and pets, automating the adoption process so every match leads to a *happy, lasting home*!
-
-**Pawspal** scrapes [loveanimalsbcn](https://loveanimalsbcn.com/), matches you with 4 pets based on your lifestyle, and directly contacts [CAACB](https://ajuntament.barcelona.cat/benestaranimal/es/cercador-danimals-en-adopcio) shelter to start your adoption journey! 
+**Pawspal** matches families with the right pets. It scrapes [loveanimalsbcn](https://loveanimalsbcn.com/), ranks your best-fit pets by lifestyle, and contacts the [CAACB](https://ajuntament.barcelona.cat/benestaranimal/es/cercador-danimals-en-adopcio) shelter directly — turning every match into a *happy, lasting home*.
 
 ![Pet Adoption Architecture](../assets/svg/pet_adoption_schema.png)
 
@@ -32,9 +30,9 @@ Where families find their match.
 - Get matched pets ranked by compatibility, each with photos and a summary.
 - Contact the shelter in one click to start the adoption.
 
-![PawsPal](/assets/images/app.png)
+![PawsPal](/images/pawspal/app.png)
 
-> *▶️ Watch [PawsPal](/assets/video/pawspal.mov) in action*
+> *▶️ Watch [PawsPal](https://drive.google.com/file/d/1y7InBB8bS6Mlz-MmBUpUY8AIarq0m_qM/view?usp=drive_link) in action!*
 
 ### 🐶 Shelter Dashboard
 
@@ -44,9 +42,9 @@ Where shelter staff keep listings fresh and prioritize urgent cases.
 - Flag urgent and featured pets, track status (🟢 active / 🔴 archived).
 - Control panel with live counts by type and status.
 
-![Admin](https://drive.google.com/file/d/1xcHLxRyT7BqUP34fQF3qthfCZkhiRnK0/view?usp=drive_link)
+![Admin](/images/pawspal/admin.png)
 
-> *▶️ Watch the [Admin dashboard](/assets/video/admin.mov) in action*
+> *▶️ Watch the [Admin dashboard](https://drive.google.com/file/d/1xcHLxRyT7BqUP34fQF3qthfCZkhiRnK0/view?usp=sharing) in action!*
 
 
 ## Run it locally
