@@ -30,7 +30,7 @@ Where families find their match.
 - Get matched pets ranked by compatibility, each with photos and a summary.
 - Contact the shelter in one click to start the adoption.
 
-![PawsPal](/images/pawspal/app.png)
+![PawsPal](/images/pawspal/main.png)
 
 > *▶️ Watch [PawsPal](https://drive.google.com/file/d/1y7InBB8bS6Mlz-MmBUpUY8AIarq0m_qM/view?usp=drive_link) in action!*
 
