@@ -19,7 +19,7 @@ title: Home
 ---
 
 ### [PawsPal](/markdown/pawspal)
-<p style="margin-bottom: 8px;">🐾 <em>Find your perfect pawtner! <span style="color:#bbb">— side project</span></em></p>
+<p style="margin-bottom: 8px;">🐾 <em>Find your perfect pawtner! <span style="color:#bbb">— pet project</span></em></p>
 Adoption success depends on compatibility. **Pawspal** uses AI-powered matching to connect families with the right pets based on lifestyle and needs, maximizing adoption outcomes!
 <br>  
 [![Alt text](/images/pawspal/pawspal.png?raw=true)](/markdown/pawspal) <br><small>`Python` · `Claude Code`· `Supabase` · `Groq` · `FastAPI` · `Streamlit`</small><br>
