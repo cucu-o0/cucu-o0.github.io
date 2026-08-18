@@ -16,40 +16,39 @@ title: PawsPal
 ![Pet Adoption Architecture](../assets/svg/pet_adoption_schema.png)
 
 
-## Two apps, one mission
+## One app, one dashboard
 
-**PawsPal** ships as **two Streamlit apps** — one for adopters, one for the shelter.
+**PawsPal** ships as a matching app for adopters and a dashboard for shelter staff.
 
-🚧 *Under Construction!*
+🚧 *Migrating from Streamlit to a PWA — in progress. Screenshots below are the current Streamlit build.*
 
 ### 🐾 PawsPal
 
 Where families find their match.
 
-- Set your lifestyle and preferences (home, time, experience).
-- Get matched pets ranked by compatibility, each with photos and a summary.
-- Contact the shelter in one click to start the adoption.
+- Onboarding captures household context — home type, kids, other pets, experience, PPP-dog opt-in.
+- Swipe deck of matched pets, each with photo, bio, and match rationale.
+- Favourites list, with restricted-breed (PPP) requirements shown inline.
+- Send favourites to the shelter team to start the adoption.
 
 <img src="/images/pawspal/main.png" alt="PawsPal" style="width: 50%; display: block; margin: 0 auto;">
 
 > *▶️ Watch [PawsPal](https://drive.google.com/file/d/1y7InBB8bS6Mlz-MmBUpUY8AIarq0m_qM/view?usp=drive_link) in action!*
 
-### 🐶 Shelter Dashboard
+### 🐶 Staff Dashboard
 
 Where shelter staff keep listings fresh and prioritize urgent cases.
 
-- Review and edit every pet card (name, photo, summary) inline.
-- Flag urgent and featured pets, track status (🟢 active / 🔴 archived).
-- Control panel with live counts by type and status.
+- Full pet-record editor — photos, video, AI-regenerated bio text.
+- Health tab: vaccines, sterilization, microchip, meds/treatments log.
+- Context flags: urban fit, good with kids/dogs/cats, experience needed, PPP status.
+- Status and urgency toggles, publish straight to Instagram.
+- Filter and search across species, size, priority, and center.
 
 ![Admin](/images/pawspal/admin.png)
 
 > *▶️ Watch the [Admin dashboard](https://drive.google.com/file/d/1xcHLxRyT7BqUP34fQF3qthfCZkhiRnK0/view?usp=sharing) in action!*
 
-
-## Run it locally
-
-🔜 *Coming Soon!*
 
 ## Stack
 
