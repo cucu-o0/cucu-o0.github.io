@@ -16,6 +16,34 @@ pre {
   font-size: 11px;
 }
 
+// Custom marker of a known width, so body content lines up with the summary text
+$marker-width: 1.2em;
+
+details {
+  margin-bottom: 12px;
+}
+
+summary {
+  cursor: pointer;
+  list-style: none; // hide default disclosure triangle
+
+  &::-webkit-details-marker { display: none; }
+
+  &::before {
+    content: "▸";
+    display: inline-block;
+    width: $marker-width;
+  }
+}
+
+details[open] > summary::before {
+  content: "▾";
+}
+
+details > :not(summary) {
+  padding-left: $marker-width;
+}
+
 section {
   padding-top: 0 !important;
 }
