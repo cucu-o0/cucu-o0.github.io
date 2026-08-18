@@ -48,6 +48,28 @@ section {
   padding-top: 0 !important;
 }
 
+// Theme pins header at the top and footer at bottom:50px; with a sidebar bio
+// this long the two overlap. Let the left column flow instead.
+@media screen and (min-width: 961px) {
+  header, footer {
+    position: static;
+    clear: left;
+  }
+
+  footer {
+    margin-top: 8px;
+    padding-bottom: 50px;
+  }
+}
+
+footer p {
+  margin-bottom: 4px;
+}
+
+header p {
+  line-height: 1.35;
+}
+
 header > img {
   width: 170px;
   padding-top: 10px !important;

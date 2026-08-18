@@ -3,7 +3,7 @@ description: >
   <div style="display: flex; width: 100%;">
     <img src="/images/vero.png?raw=true" style="width: 75%; object-fit: cover; display: block; margin: 0 auto;">
   </div>
-  <div style="text-align: justify; margin-top: 18px;">
+  <div style="margin-top: 18px;">
   <div style="text-align: center;">
   <em>AI enthusiast · engineer · dogs lover</em>
   <br>
@@ -29,6 +29,7 @@ description: >
   <img src="/images/mati1.png?raw=true" style="width: 50%; object-fit: cover; display: block; margin: 0 auto;">
   <div style="margin-top: 6px; font-size: 0.85em;">
   Adopted from a Barcelona shelter in October 2024 — I'm Vero's shadow.
+  </div>
   </div>
 
 theme: jekyll-theme-minimal
