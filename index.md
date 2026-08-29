@@ -21,7 +21,8 @@ title: Home
 <p style="margin-bottom: 8px;">🐾 <em>Find your perfect pawtner! <span style="color:#bbb">— Pet Project</span></em></p>
 **Pawspal** matches adopters to shelter pets by lifestyle fit, not just listings. AI-scored compatibility turns browsing into adoption.
 <br>  
-<small>`Python` · `Claude Code` · `FastAPI` · `Supabase (PostgreSQL)` · `Groq` · `Streamlit` · `uv` · `GitHub Actions` · `pytest`</small>
+<small>`Python` · `TypeScript` · `React + Vite (PWA)` · `FastAPI` · `Supabase (PostgreSQL)` · `Groq` · `uv` · `pytest` · `GitHub Actions` · `Claude Code`
+</small>
 <br>  
 💡*Want to adopt or volunteer? Check out* [@adopta.loveanimals.bcn](https://www.instagram.com/adopta.loveanimals.bcn/)
 <br>
