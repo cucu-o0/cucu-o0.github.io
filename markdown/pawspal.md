@@ -7,6 +7,7 @@ title: PawsPal
 
 # PawsPal
 
+<p>▶️ Try <a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><strong>PawsPal</strong></a> live — <small>free hosting, so the first load may take a few seconds to wake up.</small></p>
 
 <a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><img src="/images/pawspal/main.png" alt="PawsPal" style="width: 50%; display: block; margin: 0 auto;"></a>
 
@@ -20,7 +21,9 @@ title: PawsPal
 
 **PawsPal** matches families with the right shelter pet — by lifestyle fit, not by browsing endless listings.
 
-You answer a few questions about your household — home type, kids, other pets, previous experience, whether you can take on a restricted breed. PawsPal then ranks the pets that actually suit you and explains *why* each one is a match, so the decision is informed instead of impulsive.
+You answer a few questions about your household — home type, kids, other pets, previous experience, whether you can take on a restricted breed. **PawsPal** then ranks the pets that actually suit you and your family and explains *why* each one is a match, so the decision is informed instead of impulsive.
+
+> *🔧 The matching logic is a work in progress — constantly tuned and improved as more pets and more feedback come in.*
 
 - **Fit before photos.** Pets are ranked by how well they suit your daily life.
 - **Every match explained.** Each pet comes with a plain-language reason for the match.
@@ -48,7 +51,7 @@ Better data in → a match a family can trust.
 
 ## Status
 
-*💡 Demo stage. The app is live and usable, built on real listings, and still evolving — the source code is private.*
+*💡 Demo stage — live, usable, and built on real listings. I'm actively working on it, so it keeps evolving; the source code is private.*
 
 ## Stack
 
