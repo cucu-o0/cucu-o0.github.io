@@ -38,7 +38,7 @@ Adoption listings are usually thin and inconsistent — a photo, a name, a coupl
 
 The goal of this project is **precise, complete pet data**: age, size, health and vaccination status, behaviour with children, dogs and cats, energy level, experience required, legal restrictions. AI fills the gaps and normalises what shelters publish, so every pet is described on the same terms and a match means something.
 
-Better data in → a match a family can trust.
+> *Better data in → a match a family can trust!*
 
 ## Design requirements
 
