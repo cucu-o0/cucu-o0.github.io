@@ -7,11 +7,16 @@ title: PawsPal
 
 # PawsPal
 
-> *🐾 Find your perfect pawtner!*
 
 <a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><img src="/images/pawspal/main.png" alt="PawsPal" style="width: 50%; display: block; margin: 0 auto;"></a>
 
-## What it does
+<p style="text-align: center;"><small>Public demo on free hosting — the first load may take a few seconds to wake up.</small></p>
+
+> *▶️ Prefer a walkthrough? Watch [PawsPal in action](/video/pawspal.mp4).*
+
+## The App
+
+> *🐾 Find your perfect pawtner!*
 
 **PawsPal** matches families with the right shelter pet — by lifestyle fit, not by browsing endless listings.
 
@@ -22,7 +27,9 @@ You answer a few questions about your household — home type, kids, other pets,
 - **Save and send.** Shortlist your favourites and pass them to the shelter to start the adoption.
 - **Fewer returns.** Better matches up front mean fewer pets coming back to the shelter.
 
-## Why the data is the hard part
+## The Data
+
+> *All pets shown are real animals waiting for a home in Barcelona, via [@adopta.loveanimals.bcn](https://www.instagram.com/adopta.loveanimals.bcn/).*
 
 Adoption listings are usually thin and inconsistent — a photo, a name, a couple of lines. That is not enough to match anyone reliably.
 
@@ -41,9 +48,7 @@ Better data in → a match a family can trust.
 
 ## Status
 
-Demo stage. The app is live and usable, built on real listings, and still evolving — the source code is private.
-
-> *▶️ Prefer a walkthrough? Watch [PawsPal in action](https://drive.google.com/file/d/1y7InBB8bS6Mlz-MmBUpUY8AIarq0m_qM/view?usp=sharing).*
+*💡 Demo stage. The app is live and usable, built on real listings, and still evolving — the source code is private.*
 
 ## Stack
 

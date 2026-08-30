@@ -184,11 +184,13 @@ cython_debug/
 .github
 .env
 
-pdf/ 
-
 # jekyll
 _site/
 .jekyll-cache/
 
 Gemfile
 Gemfile.lock
+
+
+pdf/
+video/*.mov
