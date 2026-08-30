@@ -14,23 +14,22 @@ title: Home
 📐 Structural Engineer [@BIS Structures](https://bis211.com/en/) · [@Windmill Structural Consultants](https://windmill.com.es/)    
 🏗️ MSc Building Engineering [@Università degli Studi di Trento](https://www.unitn.it/en)  
 
-
-
+---
 
 ## [PawsPal](/markdown/pawspal)
 <p style="margin-bottom: 8px;">🐾 <em>Find your perfect pawtner! <span style="color:#bbb">— Pet Project</span></em></p>
 **Pawspal** is an app that matches adopters to shelter pets by lifestyle fit, not just listings. AI-scored compatibility turns browsing into adoption.   
 
-> *▶️ Check it out by clicking the image!*
+> *▶️ Check it out by clicking the image below!*
 
-[![Alt text](/images/pawspal/9-grid-collage.png?raw=true)](https://pawspal.onrender.com/)
+<a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><img src="/images/pawspal/9-grid-collage.png?raw=true" alt="PawsPal"></a>
 
 <small>`Python` · `TypeScript` · `React + Vite (PWA)` · `FastAPI` · `Supabase (PostgreSQL)` · `Groq` · `uv` · `pytest` · `GitHub Actions` · `Claude Code`
 </small>
 
-## Projects
-
 ---
+
+## Projects
 
 <details markdown="1">
 <summary>🧠 <strong>ANNa</strong> — <em>Anti-Leukemia Neural Network</em> <span style="color:#bbb">· IronHack</span></summary>

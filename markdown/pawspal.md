@@ -9,10 +9,7 @@ title: PawsPal
 
 > *🐾 Find your perfect pawtner!*
 
-**[▶️ Try the app →](https://pawspal.onrender.com/)**  
-<small>Public demo · free hosting, so the first load may take a few seconds to wake up.</small>
-
-<img src="/images/pawspal/main.png" alt="PawsPal" style="width: 50%; display: block; margin: 0 auto;">
+<a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><img src="/images/pawspal/main.png" alt="PawsPal" style="width: 50%; display: block; margin: 0 auto;"></a>
 
 ## What it does
 
