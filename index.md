@@ -19,15 +19,14 @@ title: Home
 
 ## [PawsPal](/markdown/pawspal)
 <p style="margin-bottom: 8px;">🐾 <em>Find your perfect pawtner! <span style="color:#bbb">— Pet Project</span></em></p>
-**Pawspal** matches adopters to shelter pets by lifestyle fit, not just listings. AI-scored compatibility turns browsing into adoption.
-<br>  
+**Pawspal** is an app that matches adopters to shelter pets by lifestyle fit, not just listings. AI-scored compatibility turns browsing into adoption.   
+
+> *▶️ Check it out by clicking the image!*
+
+[![Alt text](/images/pawspal/9-grid-collage.png?raw=true)](https://pawspal.onrender.com/)
+
 <small>`Python` · `TypeScript` · `React + Vite (PWA)` · `FastAPI` · `Supabase (PostgreSQL)` · `Groq` · `uv` · `pytest` · `GitHub Actions` · `Claude Code`
 </small>
-<br>  
-💡*Want to adopt or volunteer? Check out* [@adopta.loveanimals.bcn](https://www.instagram.com/adopta.loveanimals.bcn/)
-<br>
-<br>
-[![Alt text](/images/pawspal/9-grid-collage.png?raw=true)](/markdown/pawspal)
 
 ## Projects
 
