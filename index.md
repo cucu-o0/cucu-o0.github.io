@@ -7,8 +7,8 @@ title: Home
 
 ---
 
-🧠 Research Engineer [@Starlab](https://www.starlab.es/)  
-🤖 AI/ML Engineer [@Assist Digital](https://assistdigital.com/tech/botshelf)  
+🧠 AI/ML Engineer [@Starlab](https://www.starlab.es/)  
+🤖 Data/AI Engineer [@Assist Digital](https://assistdigital.com/tech/botshelf)  
 ⚕️ Data Scientist [@Trialing](https://en.trialing.org/) 
 📈 Data Enthusiast [@Ironhack](https://www.ironhack.com/)  
 📐 Structural Engineer [@BIS Structures](https://bis211.com/en/) · [@Windmill Structural Consultants](https://windmill.com.es/)    
