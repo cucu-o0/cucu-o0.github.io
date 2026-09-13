@@ -7,9 +7,7 @@ title: ANNa
 
 # 🧠 ANNa
 
-> *"Cancer doesn't grow from yesterday to today. There are signs in the tissue, but the human eye has limited ability to detect very small patterns."*  
-
-— **Regina Barzilay**, First winner of the Squirrel AI Award
+> *"Cancer doesn't grow from yesterday to today. There are signs in the tissue, but the human eye has limited ability to detect very small patterns."*  — **Regina Barzilay**, First winner of the Squirrel AI Award
 
 
 ## What is ANNa?
