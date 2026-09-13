@@ -20,7 +20,7 @@ title: Home
 <p style="margin-bottom: 8px;">🐾 <em>Find your perfect pawtner! <span style="color:#bbb">— Pet Project</span></em></p>
 **Pawspal** is an app that matches adopters to shelter pets by lifestyle fit, not just listings. AI-scored compatibility turns browsing into adoption!   
 
-<p>> Try <a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><strong>PawsPal</strong></a> live — <small>free hosting, so the first load may take a few seconds to wake up.</small></p>
+<p>▶️ <a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><strong>PawsPal</strong></a> is live — <small>runs on free hosting, so it may take a moment to spin up.</small></p>
 
 <a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><img src="/images/pawspal/9-grid-collage.png?raw=true" alt="PawsPal"></a>
 
