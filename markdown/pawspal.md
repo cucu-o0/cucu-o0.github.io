@@ -47,10 +47,10 @@ Adoption listings are usually thin and inconsistent — a photo, a name, a coupl
 
 💡 Deeper match reasoning — not just *what* fits, but *why* — so the decision feels informed, not impulsive. Held back for now to keep running costs low.
 
-## Status
-
-*Demo stage — live, usable, built on real listings, and still evolving. Source code is private.*
-
 ## Stack
 
 {% include badges.html project="pawspal" %}
+
+## Status
+
+*Demo stage — live, usable, built on real listings, and still evolving. Source code is private.*
