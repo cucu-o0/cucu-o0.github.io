@@ -35,7 +35,7 @@ Adoption listings are usually thin and inconsistent — a photo, a name, a coupl
 
 ## Design requirements
 
-| | |
+| Requirement | Description |
 |---|---|
 | 🙂 **Easy to use** | Anyone can find a pet in a few taps. No manuals, no jargon. |
 | 🛡️ **Reliable** | Tested, and honest about what it knows — no invented pet facts. |
