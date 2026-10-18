@@ -9,9 +9,9 @@ title: PawsPal
 
 > *🐾 Find your perfect pawtner!*
 
-<a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><img src="/images/pawspal/main.png" alt="PawsPal" style="width: 50%; display: block; margin: 0 auto;"></a>
+<a href="https://pawspal-portfolio.onrender.com" target="_blank" rel="noopener"><img src="/images/pawspal/main.png" alt="PawsPal" style="width: 50%; display: block; margin: 0 auto;"></a>
 
-<p>Try <a href="https://pawspal.onrender.com/" target="_blank" rel="noopener"><strong>PawsPal</strong></a> live — <small>free hosting, so the first load may take a few seconds to wake up.</small></p>
+<p>Try <a href="https://pawspal-portfolio.onrender.com" target="_blank" rel="noopener"><strong>PawsPal</strong></a> live — <small>free hosting, so the first load may take a few seconds to wake up.</small></p>
 
 *Prefer a walkthrough? ▶️ Watch [PawsPal in action](/video/pawspal.mp4).*
 
