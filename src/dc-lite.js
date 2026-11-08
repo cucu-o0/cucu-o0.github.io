@@ -4,7 +4,7 @@
 (function () {
   var RE = /\{\{\s*([\w.]+)\s*\}\}/g;
   var ONE = /^\s*\{\{\s*([\w.]+)\s*\}\}\s*$/;
-  var PAGES = { home: '', journey: 'journey', skills: 'skills', paws: 'pawspal', anna: 'anna', sag: 'sagmill', titanic: 'titanic' };
+  var PAGES = { home: '', journey: 'journey', paws: 'pawspal', anna: 'anna', sag: 'sagmill', titanic: 'titanic' };
   var SLUGS = {}; Object.keys(PAGES).forEach(function (k) { SLUGS[PAGES[k]] = k; });
 
   function get(o, p) { var v = o; p.split('.').forEach(function (k) { v = v == null ? undefined : v[k]; }); return v; }

@@ -194,7 +194,6 @@ header[style]{padding-left:24px !important;padding-right:24px !important}
 .gg{position:relative}
 .gc{padding:0 0 14px;min-width:0}
 .gzb .gg::before{content:"";position:absolute;left:51px;width:2px;top:0;bottom:0;background:var(--k1)}
-.gzb .gg::after{content:"";position:absolute;left:19px;width:2px;top:0;bottom:0;background:repeating-linear-gradient(var(--k2) 0 5px,transparent 5px 10px);opacity:.4}
 .gza .gg::before{content:"";position:absolute;left:19px;width:2px;top:0;bottom:0;background:var(--k2)}
 .gzb .gh .gg::before{top:10px}
 .gza .gr:last-child .gg::before{bottom:auto;height:20px}
@@ -653,9 +652,8 @@ div.jv #jdet.jdet .jp{position:static;inset:auto;overflow:visible}
 .rsg .rg2{border-top:3px solid var(--k1);color:var(--k1);text-align:right;border-radius:0 3px 3px 0;margin-left:2px}
 #tlscroll{gap:0!important}
 #tlscroll>.jcard:first-child{padding-bottom:0}
-#tlscroll>.jcard:first-child .gz:last-child>.gr:last-child .gg::before,#tlscroll>.jcard:first-child .gz:last-child>.gr:last-child .gg::after{bottom:-10px}
+#tlscroll>.jcard:first-child .gz:last-child>.gr:last-child .gg::before{bottom:-10px}
 #tlscroll>.jcard:last-child .gh .gg::before{top:-22px}
-.jtlw .gzb .gg::after{background:var(--k2)}
 .jtlw .gpa{stroke-dasharray:none}
 .hxs{margin-top:18px;overflow:hidden;container-type:inline-size;container-name:hxs}
 .hx{width:100cqw;min-width:1090px;position:relative;padding-left:44px;box-sizing:border-box}
@@ -679,11 +677,14 @@ div.jv #jdet.jdet .jp{position:static;inset:auto;overflow:visible}
 .hxbp.grp{background:color-mix(in srgb,var(--fg) 8%,var(--cd));color:var(--fg);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--fg) 25%,transparent)}
 .hxt{position:absolute;z-index:1;border-left:1.5px solid var(--ln);padding:3px 0 0 4px;font:600 13px/1 'DM Mono',ui-monospace,monospace;color:var(--mu);height:18px}
 .hb{position:absolute;z-index:1;height:10px;border-radius:5px;background:var(--lc);opacity:.4}
-.hd0{position:absolute;z-index:4;width:14px;height:14px;border-radius:50%;background:var(--lc);border:3px solid var(--lc);box-sizing:border-box;transform:translate(-50%,-50%);cursor:pointer;transition:transform .15s}
+.hd0{padding:0;position:absolute;z-index:4;width:14px;height:14px;border-radius:50%;background:var(--lc);border:3px solid var(--lc);box-sizing:border-box;transform:translate(-50%,-50%);cursor:pointer;transition:transform .15s}
 .hd0.hr{background:var(--cd);width:13px;height:13px;border-width:2.5px}
 .hl{position:absolute;z-index:1;width:0;border-left:1.5px solid var(--lc);opacity:.45}
 .hc{position:absolute;z-index:2;box-sizing:border-box;border:1px solid var(--ln);border-radius:12px;background:var(--cd);padding:6px 9px 7px;cursor:pointer;min-width:0}
 .hc:hover{border-color:var(--lc)}
+.hcb{position:absolute;inset:0;width:100%;height:100%;padding:0;border:0;border-radius:inherit;background:none;cursor:pointer}
+.hcb:focus-visible{outline:2px solid var(--lc);outline-offset:2px}
+.hc a{position:relative;z-index:1}
 .hc.hj{width:164px;min-height:78px}
 .hc.hst{width:max-content;max-width:none;padding:4px 9px 5px}
 .hc.hnc{cursor:default}
@@ -1294,3 +1295,19 @@ section[data-hk="ih"] .hx .hd0[data-k="ih"]{transform:translate(-50%,-50%) scale
 .pq-why4.pq-req .pq-c>.pq-d{margin:10px 0 0}
 @media (max-width:900px){.pq-h2{font-size:36px}}
 @media (max-width:600px){.pq-h2{font-size:32px}}
+
+/* selection state driven by data-on (set by the runtime) */
+.gcard.gsel{position:relative;cursor:pointer;border-color:var(--ln);background:transparent}
+.gcard.gsel[data-on]{border-color:transparent;background:color-mix(in srgb,var(--c) 11%,var(--cd))}
+.gcard a{position:relative;z-index:1}
+.gdj{box-shadow:0 0 0 4px var(--cd)}
+.gdj[data-on]{box-shadow:0 0 0 4px var(--cd),0 0 0 7px var(--c)}
+.jp:not([data-on]){display:none}
+.rpb[hidden]{display:none}
+.rbr{display:block;width:100%;height:8px;border:0;border-radius:999px;background:var(--tn);overflow:hidden;appearance:none;-webkit-appearance:none}
+.rbr::-webkit-progress-bar{background:var(--tn)}
+.rbr::-webkit-progress-value{background:var(--ac);border-radius:999px}
+.rbr::-moz-progress-bar{background:var(--ac);border-radius:999px}
+
+.ptl{margin:0;padding:0;border:0;background:none;font:inherit;letter-spacing:inherit;color:inherit;text-align:inherit;cursor:pointer}
+.ptl:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:6px}

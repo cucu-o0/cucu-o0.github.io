@@ -16,15 +16,29 @@ function cardHtml(j) {
   const c = j.card;
   const sub = `${esc(c.role)}${c.one_line ? '&nbsp; ' : ' <br>'}${esc(c.company)}, <i>${esc(c.city)}</i>`;
   const badges = (c.badges || []).map((b) => `<span class="jbadge">${esc(b)}</span>`).join('');
-  return `<div class="gcard gsel" data-jk="${j.key}" onClick="{{jp_${j.key}}}" style="border-color:{{g.jbc_${j.key}}};box-shadow:{{g.jsh_${j.key}}};background:{{g.jbg_${j.key}}}">` +
+  return `<div class="gcard gsel" data-jk="${j.key}" data-on="{{g.jon_${j.key}}}"><button type="button" class="hcb" onClick="{{jp_${j.key}}}" aria-label="Show ${attr(j.name)} details"></button>` +
     `<p class="gdt">${esc(j.dates)}</p>` +
     `<p class="gtt"><a class="glk" href="${attr(j.url)}" target="_blank" rel="noopener noreferrer" aria-label="${attr(j.name)}, opens in a new tab">${esc(j.name)}<span class="gx" aria-hidden="true"> ↗</span></a></p>` +
     `<p class="gsb">${sub}</p><div class="jbadges jbd">${badges}</div></div>`;
 }
 
+function stackHtml(stack) {
+  let h = '';
+  const groups = GROUPS.filter((g) => (stack[g] || []).length);
+  const tools = groups.flatMap((g) => stack[g].map((t) => [t, g]));
+  const hh = Math.round(6.95 * Math.max(...tools.map(([t]) => t.length)));
+  h += `<div class="jtb" style="--n:${tools.length};--hh:${hh}px" role="img" aria-label="Stack: tools by group"><span></span>`;
+  h += tools.map(([t]) => `<span class="jth">${esc(t)}</span>`).join('');
+  for (const g of groups) {
+    h += `<span class="jtl">${esc(g)}</span>`;
+    for (const [t, tg] of tools) h += `<span class="jc${tg === g ? ' on' : ''}" title="${attr(t + (tg === g ? ': ' + g : ''))}"></span>`;
+  }
+  return h + '</div>';
+}
+
 function detailHtml(j) {
   const d = j.details;
-  let h = `<div class="jp" style="--c:var(--k1);display:{{g.jd_${j.key}}}"><p class="gdt">${esc(j.dates)}</p>` +
+  let h = `<div class="jp" style="--c:var(--k1)" data-on="{{g.jon_${j.key}}}"><p class="gdt">${esc(j.dates)}</p>` +
     `<h3 class="jpt"><a class="glk" href="${attr(j.url)}" target="_blank" rel="noopener noreferrer" aria-label="${attr(j.name)}, opens in a new tab">${esc(j.name)}<span class="gx" aria-hidden="true"> ↗</span></a></h3><div class="jfacts">`;
   for (const [l, v] of [['Company', d.company], ['Role', d.role], ['Location', d.location], ['Work mode', d.work_mode]]) {
     h += `<div class="jf"><span class="jfl">${l}</span><span>${esc(v)}</span></div>`;
@@ -34,28 +48,22 @@ function detailHtml(j) {
     h += `<div class="tile"><div class="top"><svg class="ti" aria-hidden="true"><use href="#i-${p.icon}"></use></svg><h4>${esc(p.title)}</h4></div><p>${esc(p.text)}</p><div class="pills"><span class="pill pu">${esc(p.tag)}</span></div></div>`;
   }
   h += '</div><p class="jh">Stack</p>';
-  const groups = GROUPS.filter((g) => (d.stack[g] || []).length);
-  const tools = groups.flatMap((g) => d.stack[g].map((t) => [t, g]));
-  const hh = Math.round(6.95 * Math.max(...tools.map(([t]) => t.length)));
-  h += `<div class="jtb" style="--n:${tools.length};--hh:${hh}px" role="img" aria-label="Stack: tools by group"><span></span>`;
-  h += tools.map(([t]) => `<span class="jth">${esc(t)}</span>`).join('');
-  for (const g of groups) {
-    h += `<span class="jtl">${esc(g)}</span>`;
-    for (const [t, tg] of tools) h += `<span class="jc${tg === g ? ' on' : ''}" title="${attr(t + (tg === g ? ': ' + g : ''))}"></span>`;
-  }
-  return h + '</div></div>';
+  h += stackHtml(d.stack);
+  return h + '</div>';
 }
 
-const jobs = parse(read('journey.yaml')).jobs;
+const data = parse(read('journey.yaml'));
+const jobs = data.jobs;
 let journey = read('pages', 'journey.html');
 for (const j of jobs) {
   journey = journey.replace(`<!--@card:${j.key}-->`, cardHtml(j)).replace(`<!--@detail:${j.key}-->`, detailHtml(j));
 }
+const paws = read('pages', 'paws.html').replace('<!--@stack:paws-->', stackHtml(data.pawspal.stack));
 if (journey.includes('<!--@')) throw new Error('Unreplaced placeholder in journey.html');
 
 // ---------- Assemble ----------
-const order = ['home', 'journey', 'skills', 'paws', 'anna', 'sag', 'titanic'];
-const pages = order.map((n) => (n === 'journey' ? journey : read('pages', n + '.html'))).join('\n');
+const order = ['home', 'journey', 'paws', 'anna', 'sag', 'titanic'];
+const pages = order.map((n) => (n === 'journey' ? journey : n === 'paws' ? paws : read('pages', n + '.html'))).join('\n');
 const shell = read('shell.html').replace('<!--@pages-->', pages);
 const css = read('styles.css') + '\nsc-if{display:contents}sc-if[hidden]{display:none!important}x-dc{display:block;visibility:hidden}';
 const desc = 'Vero Agnolutto, AI/ML engineer in Barcelona. From buildings to algorithms: ML and AI systems that turn complex data into practical solutions.';

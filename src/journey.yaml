@@ -53,20 +53,20 @@ jobs:
       projects:
         - icon: chat
           title: "Generative Chatbots"
-          text: "Chatbots built on LLMs."
+          text: "Chatbots built on LLMs and RAG, with LangChain, OpenAI and Pinecone."
           tag: GenAI
         - icon: gear
-          title: "Email & Document Automation"
-          text: "RPA bots that classify emails and extract data from documents."
+          title: "Document Automation"
+          text: "RPA bots that classify incoming emails and extract data from documents."
           tag: Classification
         - icon: spark
           title: "MLOps & Responsible AI"
-          text: "Experiment tracking, deployment and monitoring, with bias management, explainability and data protection compliance."
+          text: "Tracking, deployment and monitoring, with bias, explainability and compliance."
           tag: MLOps
       stack:
         Languages & Core: [Python]
         Frameworks & Libraries: [spaCy, OpenCV, LangChain, Streamlit]
-        Tools & Infrastructure: [Postman, Docker, Pinecone, AWS, Azure]
+        Tools & Infrastructure: [Postman, Docker, Pinecone, AWS, Azure, SonarQube]
         AI & LLM: [OCR, RAG, OpenAI]
 
   - key: bot
@@ -86,20 +86,20 @@ jobs:
       projects:
         - icon: txt
           title: "NLP for Documents"
-          text: "Text classification and document analysis."
+          text: "Text classification and document analysis, built with spaCy NLP models."
           tag: NLP
         - icon: doc
-          title: "OCR & Handwriting Recognition"
-          text: "Computer vision models for printed and handwritten text."
+          title: "Handwriting OCR"
+          text: "Computer vision models that read printed and handwritten text."
           tag: OCR
         - icon: gear
           title: "MLOps & Responsible AI"
-          text: "Containerization and cloud integration, with deployment and monitoring."
+          text: "Containerized models on AWS, with deployment and monitoring."
           tag: MLOps
       stack:
         Languages & Core: [Python]
         Frameworks & Libraries: [spaCy, OpenCV]
-        Tools & Infrastructure: [Postman, Docker, AWS, Azure]
+        Tools & Infrastructure: [Postman, Docker, AWS, Azure, SonarQube]
         AI & LLM: [YOLO, Computer Vision, OCR]
 
   - key: tri
@@ -133,3 +133,11 @@ jobs:
         Languages & Core: [Python]
         Frameworks & Libraries: [pandas, BeautifulSoup, Selenium, seaborn]
         Tools & Infrastructure: [Git, Jira, Excel]
+
+# PawsPal side project: stack shown on its page, same grid as the jobs
+pawspal:
+  stack:
+    Languages & Core: [Python, TypeScript, SQL]
+    Frameworks & Libraries: [FastAPI, Pydantic, React, Vite]
+    Tools & Infrastructure: [Supabase, PostgreSQL, GitHub Actions, pytest, Render, uv]
+    AI & LLM: [OpenAI SDK, Groq, LLM evaluation]
