@@ -1,6 +1,6 @@
 /* dc-lite: a tiny runtime for the portfolio templates.
    Supports {{ path }} bindings in attributes and text, <sc-if value="{{ path }}">, onClick="{{ handler }}",
-   a Component class with state/props/renderVals, and hash routing (#/journey, #/pawspal, ...). */
+   a Component class with state/props/renderVals, and hash routing (#journey, #pawspal, ...). */
 (function () {
   var RE = /\{\{\s*([\w.]+)\s*\}\}/g;
   var ONE = /^\s*\{\{\s*([\w.]+)\s*\}\}\s*$/;
@@ -89,8 +89,11 @@
       var st = comp.state, page = st.page || 'home';
       if (page !== shown) {
         shown = page;
-        var h = PAGES[page] ? '#/' + PAGES[page] : '';
-        if (location.hash !== h && !(h === '' && location.hash === '')) history.pushState(null, '', h || location.pathname + location.search);
+        var h = PAGES[page] ? '#' + PAGES[page] : '';
+        if (location.hash !== h && !(h === '' && location.hash === '')) {
+          try { history.pushState(null, '', h || location.pathname + location.search); }
+          catch (e) { try { location.hash = h; } catch (e2) {} }
+        }
         document.title = (page === 'home' ? '' : (PAGES[page][0].toUpperCase() + PAGES[page].slice(1)) + ' · ') + 'Vero Agnolutto, Portfolio';
       }
       if (st.theme && st.theme !== savedTheme) { savedTheme = st.theme; try { localStorage.setItem('theme', st.theme); } catch (e) {} }
