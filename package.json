@@ -1,0 +1,23 @@
+{
+  "name": "cucu-o0.github.io",
+  "version": "1.0.0",
+  "description": "🌐 Live at [cucu-o0.github.io](https://cucu-o0.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cucu-o0/cucu-o0.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cucu-o0/cucu-o0.github.io/issues"
+  },
+  "homepage": "https://github.com/cucu-o0/cucu-o0.github.io#readme",
+  "dependencies": {
+    "yaml": "^2.9.1"
+  }
+}
