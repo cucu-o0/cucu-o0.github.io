@@ -27,13 +27,13 @@ function stackHtml(stack) {
   const groups = GROUPS.filter((g) => (stack[g] || []).length);
   const tools = groups.flatMap((g) => stack[g].map((t) => [t, g]));
   const hh = Math.round(6.95 * Math.max(...tools.map(([t]) => t.length)));
-  h += `<div class="jtb" style="--n:${tools.length};--hh:${hh}px" role="img" aria-label="Stack: tools by group"><span></span>`;
+  h += `<figure class="jtb" style="--n:${tools.length};--hh:${hh}px" aria-label="Stack: tools by group"><span></span>`;
   h += tools.map(([t]) => `<span class="jth">${esc(t)}</span>`).join('');
   for (const g of groups) {
     h += `<span class="jtl">${esc(g)}</span>`;
     for (const [t, tg] of tools) h += `<span class="jc${tg === g ? ' on' : ''}" title="${attr(t + (tg === g ? ': ' + g : ''))}"></span>`;
   }
-  return h + '</div>';
+  return h + '</figure>';
 }
 
 function detailHtml(j) {
