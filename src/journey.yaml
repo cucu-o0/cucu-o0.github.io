@@ -11,7 +11,7 @@ jobs:
       company: DeepTech neuroscience R&D
       city: Barcelona
       one_line: true
-      badges: [ML for Neuroscience, Automated qEEG Reporting, BIDS Data Management]
+      badges: [ML for Neuroscience, qEEG Report Automation, BIDS Data Management]
     details:
       company: DeepTech neuroscience R&D
       role: Research · AI Engineer
