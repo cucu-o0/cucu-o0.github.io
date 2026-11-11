@@ -249,8 +249,8 @@ div.jv>.jtlw{grid-area:tl}div.jv #jdet{margin:0;grid-area:dt}
 .gr.gp .gpl+.gc{grid-column:2;grid-row:2;padding-top:0}
 .gr.gbl .gcl2 .gref,.gr.gp .gpl .gref{margin:0;white-space:nowrap}
 @container (min-width:420px){
-.gr.gbl .gcl2{grid-column:1;grid-row:1;text-align:right;padding:0 12px 18px 0}
-.gr.gbl .gcr2{grid-column:3;grid-row:1;padding:0 0 18px 12px}
+.gr.gbl .gcl2{grid-column:1;grid-row:1;text-align:right;padding:0 12px 0 0;height:24px;margin-bottom:18px;display:flex;align-items:center;justify-content:flex-end}
+.gr.gbl .gcr2{grid-column:3;grid-row:1;padding:0 0 0 12px;height:24px;margin-bottom:18px;display:flex;align-items:center}
 .gr.gbl .gcr2 .grm{display:block}
 .gr.gp .gpl{grid-column:1;grid-row:1;text-align:right;padding:36px 12px 22px 0}
 .gr.gp .gpl .gref{margin:0;white-space:nowrap;font-size:11px;padding:6px 10px}

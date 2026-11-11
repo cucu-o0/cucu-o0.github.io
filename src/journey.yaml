@@ -20,15 +20,15 @@ jobs:
       projects:
         - icon: eeg
           title: "ML for Neuroscience"
-          text: "Models for EEG-based analysis in applied neuroscience."
+          text: "Machine learning models for EEG-based analysis in applied neuroscience."
           tag: ML
         - icon: doc
-          title: "Real-time qEEG Reporting"
-          text: "Low-latency inference and automated qEEG reporting, built for reliability and observability."
+          title: "qEEG Reporting"
+          text: "Low-latency inference & automated qEEG reports, built to be reliable and observable."
           tag: Pipeline
         - icon: db
-          title: "BIDS Database"
-          text: "Storage and management of brain data."
+          title: "BIDS Data"
+          text: "Storage & management of brain data, with data governance built in: GDPR, data residency & traceability."
           tag: Data
       stack:
         Languages & Core: [Python]
@@ -53,15 +53,15 @@ jobs:
       projects:
         - icon: chat
           title: "Generative Chatbots"
-          text: "Chatbots built on LLMs and RAG, with LangChain, OpenAI and Pinecone."
+          text: "Chatbots built on LLMs & RAG, with LangChain, OpenAI & Pinecone."
           tag: GenAI
         - icon: gear
           title: "Document Automation"
-          text: "RPA bots that classify incoming emails and extract data from documents."
-          tag: Classification
+          text: "RPA bots that classify incoming emails & extract data from documents."
+          tag: RPA
         - icon: spark
           title: "MLOps & Responsible AI"
-          text: "Tracking, deployment and monitoring, with bias, explainability and compliance."
+          text: "Model tracking, deployment, monitoring & explainability."
           tag: MLOps
       stack:
         Languages & Core: [Python]
@@ -86,19 +86,19 @@ jobs:
       projects:
         - icon: txt
           title: "NLP for Documents"
-          text: "Text classification and document analysis, built with spaCy NLP models."
+          text: "Text classification & document analysis with spaCy NLP models."
           tag: NLP
-        - icon: doc
-          title: "Handwriting OCR"
-          text: "Computer vision models that read printed and handwritten text."
+        - icon: eye
+          title: "Computer Vision"
+          text: "Computer vision models for printed & handwritten text."
           tag: OCR
-        - icon: gear
+        - icon: spark
           title: "MLOps & Responsible AI"
-          text: "Containerized models on AWS, with deployment and monitoring."
+          text: "Model tracking, deployment, monitoring, & explainability."
           tag: MLOps
       stack:
         Languages & Core: [Python]
-        Frameworks & Libraries: [spaCy, OpenCV]
+        Frameworks & Libraries: [spaCy, OpenCV, Streamlit]
         Tools & Infrastructure: [Postman, Docker, AWS, Azure, SonarQube]
         AI & LLM: [YOLO, Computer Vision, OCR]
 
@@ -110,22 +110,22 @@ jobs:
       role: Data Scientist
       company: Healthcare Startup
       city: Barcelona
-      badges: [Database Design, Data Quality, Web Scraping, Data Management]
+      badges: [Database Design, Data Quality, Web Scraping]
     details:
       company: Healthcare startup
       role: Data Scientist
       location: Barcelona
       work_mode: On-site
       projects:
-        - icon: obj
+        - icon: spider
           title: "Clinical Trial Data Scraping"
-          text: "Web scraping and structuring of clinical trial data."
+          text: "Web scraping & structuring of clinical trial data."
           tag: Scraping
         - icon: db
-          title: "Databases Design"
-          text: "Core databases built from scratch for patients, hospitals & clinical trials."
-          tag: Database
-        - icon: chat
+          title: "Database Design"
+          text: "Core databases built from scratch for patients & hospitals."
+          tag: Data
+        - icon: team
           title: "Cross-team Coordination"
           text: "Worked with clinical trial experts to ensure data quality."
           tag: Collaboration
